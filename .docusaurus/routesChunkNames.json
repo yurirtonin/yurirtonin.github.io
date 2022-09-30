@@ -1,0 +1,89 @@
+{
+  "/pt-BR/404-dc3": {
+    "component": "6bb41b40",
+    "config": "5e9f5e1a"
+  },
+  "/pt-BR/aboutwebsite-819": {
+    "component": "1f391b9e",
+    "content": "9d5ac290"
+  },
+  "/pt-BR/blog-a31": {
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c59709d0"
+      }
+    ],
+    "metadata": "e38a50e9"
+  },
+  "/pt-BR/blog/2022/09/26/introduction-a40": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "bb29a2a2"
+  },
+  "/pt-BR/blog/archive-7fd": {
+    "component": "9e4087bc",
+    "archive": "bb99614c"
+  },
+  "/pt-BR/blog/tags-1b2": {
+    "component": "01a85c17",
+    "sidebar": "814f3328",
+    "tags": "fd249cb5"
+  },
+  "/pt-BR/blog/tags/blog-9da": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c59709d0"
+      }
+    ],
+    "metadata": "cefda05e"
+  },
+  "/pt-BR/blog/tags/welcome-0bb": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c59709d0"
+      }
+    ],
+    "metadata": "232c13ec"
+  },
+  "/pt-BR/curriculum-37d": {
+    "component": "1f391b9e",
+    "content": "1ad2c686"
+  },
+  "/pt-BR/teaching-c67": {
+    "component": "a6aa9e1f",
+    "sidebar": "a1658fd6",
+    "items": [
+      {
+        "content": "0db8520b"
+      }
+    ],
+    "metadata": "98b172eb"
+  },
+  "/pt-BR/teaching/2022/09/26/introduction-661": {
+    "component": "ccc49370",
+    "sidebar": "a1658fd6",
+    "content": "6b344c28"
+  },
+  "/pt-BR/teaching/archive-640": {
+    "component": "9e4087bc",
+    "archive": "84898463"
+  },
+  "/pt-BR/docs-d27": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
+  },
+  "/pt-BR/docs/Introduction/introfordummies-72c": {
+    "component": "17896441",
+    "content": "6f0f3efd"
+  },
+  "/pt-BR/-d72": {
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
+  }
+}

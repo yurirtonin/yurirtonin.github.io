@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[25],{2646:function(e){e.exports=JSON.parse('{"allTagsPath":"/pt-BR/blog/tags","slug":"/pt-BR/blog/tags/welcome","name":"welcome","count":1,"permalink":"/pt-BR/blog/tags/welcome"}')}}]);

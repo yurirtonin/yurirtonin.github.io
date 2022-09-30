@@ -1,0 +1,27 @@
+{
+  "blogPosts": [
+    {
+      "id": "/2022/09/26/introduction",
+      "metadata": {
+        "permalink": "/teaching/2022/09/26/introduction",
+        "source": "@site/teaching/2022-09-26-introduction.mdx",
+        "title": "Welcome to my teaching space!",
+        "description": "description",
+        "date": "2022-09-26T00:00:00.000Z",
+        "formattedDate": "September 26, 2022",
+        "tags": [],
+        "readingTime": 0.365,
+        "truncated": true,
+        "authors": [
+          {
+            "name": "Yuri R. Tonin",
+            "title": "Physics Engineer",
+            "url": "https://github.com/yurirt94",
+            "imageURL": "/img/me.jpg"
+          }
+        ]
+      },
+      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nThis page is intended to host some blog posts that talk about technical and scientific topics that I believe might be useful to other people. \n\nI hope you can make good use of it!\n\n<a >\n    <Figure \n      data={{\n            src: '/img/logo.png',\n            alt: 'TheCube',\n            type: 'image'\n      }} \n    />\n</a>\n\nWhich surface is the base of the cube?\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>"
+    }
+  ]
+}

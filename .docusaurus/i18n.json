@@ -1,0 +1,18 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "pt-BR"
+  ],
+  "currentLocale": "pt-BR",
+  "localeConfigs": {
+    "en": {
+      "label": "English",
+      "direction": "ltr"
+    },
+    "pt-BR": {
+      "label": "Português (Brasil)",
+      "direction": "ltr"
+    }
+  }
+}

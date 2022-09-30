@@ -1,0 +1,16 @@
+{
+  "/pt-BR/blog/tags/welcome": {
+    "allTagsPath": "/pt-BR/blog/tags",
+    "slug": "/pt-BR/blog/tags/welcome",
+    "name": "welcome",
+    "count": 1,
+    "permalink": "/pt-BR/blog/tags/welcome"
+  },
+  "/pt-BR/blog/tags/blog": {
+    "allTagsPath": "/pt-BR/blog/tags",
+    "slug": "/pt-BR/blog/tags/blog",
+    "name": "blog",
+    "count": 1,
+    "permalink": "/pt-BR/blog/tags/blog"
+  }
+}

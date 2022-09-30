@@ -1,0 +1,23 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/pt-BR/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/pt-BR/docs",
+          "mainDocId": "Introduction/introfordummies",
+          "docs": [
+            {
+              "id": "Introduction/introfordummies",
+              "path": "/pt-BR/docs/Introduction/introfordummies",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

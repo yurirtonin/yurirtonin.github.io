@@ -1,0 +1,35 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Introduction",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Microscopy for dummies",
+            "href": "/pt-BR/docs/Introduction/introfordummies",
+            "docId": "Introduction/introfordummies"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "Introduction/introfordummies": {
+      "id": "Introduction/introfordummies",
+      "title": "Microscopy for dummies",
+      "description": "Seeing is understanding.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

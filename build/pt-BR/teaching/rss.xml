@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Yuri Rossi Tonin Blog</title>
+        <link>https://yurirtonin.github.io/pt-BR/teaching</link>
+        <description>Yuri Rossi Tonin Blog</description>
+        <lastBuildDate>Mon, 26 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome to my teaching space!]]></title>
+            <link>https://yurirtonin.github.io/pt-BR/teaching/2022/09/26/introduction</link>
+            <guid>/2022/09/26/introduction</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[description]]></description>
+            <content:encoded><![CDATA[<p>This page is intended to host some blog posts that talk about technical and scientific topics that I believe might be useful to other people. </p><p>I hope you can make good use of it!</p><a><div data="[object Object]"></div></a><p>Which surface is the base of the cube?</p><div uri="blog/name" image="img/template.jpg" type="article"></div>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

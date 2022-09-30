@@ -1,0 +1,37 @@
+{
+  "blogPosts": [
+    {
+      "id": "/2022/09/26/introduction",
+      "metadata": {
+        "permalink": "/blog/2022/09/26/introduction",
+        "editUrl": "https://github.com/yurirtonin/yurirtonin.github.io/tree/master/blog/2022-09-26-introduction.mdx",
+        "source": "@site/blog/2022-09-26-introduction.mdx",
+        "title": "Welcome!",
+        "description": "description",
+        "date": "2022-09-26T00:00:00.000Z",
+        "formattedDate": "September 26, 2022",
+        "tags": [
+          {
+            "label": "welcome",
+            "permalink": "/blog/tags/welcome"
+          },
+          {
+            "label": "blog",
+            "permalink": "/blog/tags/blog"
+          }
+        ],
+        "readingTime": 0.46,
+        "truncated": true,
+        "authors": [
+          {
+            "name": "Yuri R. Tonin",
+            "title": "Physics Engineer",
+            "url": "https://github.com/yurirt94",
+            "imageURL": "/img/me.jpg"
+          }
+        ]
+      },
+      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nWelcome! This is my personal corner. Here I intend to ocasionally post some of my thoughts,\nperhaps some opinions and tell you about some interesting experiences I have had or places I have visited. \n\nIn essence, I hope to expose a little bit about my curiosity about the world and to let out some of those thoughts\nthat hunt my mind once in a while. \n\nI hope you like it!\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>\n\n___\n\n<Reminder />\n___"
+    }
+  ]
+}
