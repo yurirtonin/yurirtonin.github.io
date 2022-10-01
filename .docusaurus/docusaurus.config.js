@@ -13,6 +13,7 @@ export default {
   },
   "organizationName": "yurirtonin",
   "projectName": "yurirtonin.github.io",
+  "deploymentBranch": "gh-pages",
   "themeConfig": {
     "announcementBar": {
       "id": "shareme",

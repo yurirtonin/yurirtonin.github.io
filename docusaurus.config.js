@@ -15,6 +15,7 @@ module.exports = {
     },
     organizationName: config.GITHUB_USER,
     projectName: config.REPOSITORY_NAME,
+    deploymentBranch:'gh-pages',
     themeConfig: {
         announcementBar: {
             id: 'shareme',
