@@ -4,80 +4,80 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/pt-BR/404',
-    component: ComponentCreator('/pt-BR/404','dc3'),
+    path: '/404',
+    component: ComponentCreator('/404','728'),
     exact: true
   },
   {
-    path: '/pt-BR/aboutwebsite',
-    component: ComponentCreator('/pt-BR/aboutwebsite','819'),
+    path: '/aboutwebsite',
+    component: ComponentCreator('/aboutwebsite','a8b'),
     exact: true
   },
   {
-    path: '/pt-BR/blog',
-    component: ComponentCreator('/pt-BR/blog','a31'),
+    path: '/blog',
+    component: ComponentCreator('/blog','03a'),
     exact: true
   },
   {
-    path: '/pt-BR/blog/2022/09/26/introduction',
-    component: ComponentCreator('/pt-BR/blog/2022/09/26/introduction','a40'),
+    path: '/blog/2022/09/26/introduction',
+    component: ComponentCreator('/blog/2022/09/26/introduction','3c6'),
     exact: true
   },
   {
-    path: '/pt-BR/blog/archive',
-    component: ComponentCreator('/pt-BR/blog/archive','7fd'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive','f4c'),
     exact: true
   },
   {
-    path: '/pt-BR/blog/tags',
-    component: ComponentCreator('/pt-BR/blog/tags','1b2'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags','e13'),
     exact: true
   },
   {
-    path: '/pt-BR/blog/tags/blog',
-    component: ComponentCreator('/pt-BR/blog/tags/blog','9da'),
+    path: '/blog/tags/blog',
+    component: ComponentCreator('/blog/tags/blog','6a4'),
     exact: true
   },
   {
-    path: '/pt-BR/blog/tags/welcome',
-    component: ComponentCreator('/pt-BR/blog/tags/welcome','0bb'),
+    path: '/blog/tags/welcome',
+    component: ComponentCreator('/blog/tags/welcome','418'),
     exact: true
   },
   {
-    path: '/pt-BR/curriculum',
-    component: ComponentCreator('/pt-BR/curriculum','37d'),
+    path: '/curriculum',
+    component: ComponentCreator('/curriculum','154'),
     exact: true
   },
   {
-    path: '/pt-BR/teaching',
-    component: ComponentCreator('/pt-BR/teaching','c67'),
+    path: '/teaching',
+    component: ComponentCreator('/teaching','2a5'),
     exact: true
   },
   {
-    path: '/pt-BR/teaching/2022/09/26/introduction',
-    component: ComponentCreator('/pt-BR/teaching/2022/09/26/introduction','661'),
+    path: '/teaching/2022/09/26/introduction',
+    component: ComponentCreator('/teaching/2022/09/26/introduction','b9d'),
     exact: true
   },
   {
-    path: '/pt-BR/teaching/archive',
-    component: ComponentCreator('/pt-BR/teaching/archive','640'),
+    path: '/teaching/archive',
+    component: ComponentCreator('/teaching/archive','435'),
     exact: true
   },
   {
-    path: '/pt-BR/docs',
-    component: ComponentCreator('/pt-BR/docs','d27'),
+    path: '/docs',
+    component: ComponentCreator('/docs','f1e'),
     routes: [
       {
-        path: '/pt-BR/docs/Introduction/introfordummies',
-        component: ComponentCreator('/pt-BR/docs/Introduction/introfordummies','72c'),
+        path: '/docs/Introduction/introfordummies',
+        component: ComponentCreator('/docs/Introduction/introfordummies','45e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/pt-BR/',
-    component: ComponentCreator('/pt-BR/','d72'),
+    path: '/',
+    component: ComponentCreator('/','deb'),
     exact: true
   },
   {

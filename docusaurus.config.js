@@ -158,10 +158,8 @@ module.exports = {
       ],
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'pt-BR'],
+        locales: ['en'],
         localeConfigs: {
-            en: { label: 'English' },
-            pt: { label: 'Português' }
-        }
+            en: { label: 'English' }        }
     }
 };

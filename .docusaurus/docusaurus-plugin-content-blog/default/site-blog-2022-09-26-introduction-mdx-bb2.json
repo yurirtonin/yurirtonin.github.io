@@ -1,19 +1,19 @@
 {
-  "permalink": "/pt-BR/blog/2022/09/26/introduction",
+  "permalink": "/blog/2022/09/26/introduction",
   "editUrl": "https://github.com/yurirtonin/yurirtonin.github.io/tree/master/blog/2022-09-26-introduction.mdx",
   "source": "@site/blog/2022-09-26-introduction.mdx",
   "title": "Welcome!",
   "description": "description",
   "date": "2022-09-26T00:00:00.000Z",
-  "formattedDate": "26 de setembro de 2022",
+  "formattedDate": "September 26, 2022",
   "tags": [
     {
       "label": "welcome",
-      "permalink": "/pt-BR/blog/tags/welcome"
+      "permalink": "/blog/tags/welcome"
     },
     {
       "label": "blog",
-      "permalink": "/pt-BR/blog/tags/blog"
+      "permalink": "/blog/tags/blog"
     }
   ],
   "readingTime": 0.46,

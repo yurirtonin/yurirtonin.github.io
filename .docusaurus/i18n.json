@@ -1,17 +1,12 @@
 {
   "defaultLocale": "en",
   "locales": [
-    "en",
-    "pt-BR"
+    "en"
   ],
-  "currentLocale": "pt-BR",
+  "currentLocale": "en",
   "localeConfigs": {
     "en": {
       "label": "English",
-      "direction": "ltr"
-    },
-    "pt-BR": {
-      "label": "Português (Brasil)",
       "direction": "ltr"
     }
   }

@@ -2,7 +2,7 @@ export default {
   "title": "Yuri Rossi Tonin",
   "tagline": "Researcher / Engineer from Brazil",
   "url": "https://yurirtonin.github.io",
-  "baseUrl": "/pt-BR/",
+  "baseUrl": "/",
   "favicon": "img/favicon.ico",
   "customFields": {
     "description": "Personal website of Yuri R. Tonin!",
@@ -155,16 +155,11 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en",
-      "pt-BR"
+      "en"
     ],
     "localeConfigs": {
       "en": {
         "label": "English",
-        "direction": "ltr"
-      },
-      "pt": {
-        "label": "Português",
         "direction": "ltr"
       }
     }
