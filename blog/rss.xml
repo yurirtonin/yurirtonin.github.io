@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Yuri Rossi Tonin Blog</title>
+        <link>https://yurirtonin.github.io/blog</link>
+        <description>Yuri Rossi Tonin Blog</description>
+        <lastBuildDate>Mon, 26 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright ©2022-present Yuri Rossi Tonin.</copyright>
+        <item>
+            <title><![CDATA[Welcome!]]></title>
+            <link>https://yurirtonin.github.io/blog/2022/09/26/introduction</link>
+            <guid>/2022/09/26/introduction</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[description]]></description>
+            <content:encoded><![CDATA[<p>Welcome! This is my personal corner. Here I intend to ocasionally post some of my thoughts,
+perhaps some opinions and tell you about some interesting experiences I have had or places I have visited. </p><p>In essence, I hope to expose a little bit about my curiosity about the world and to let out some of those thoughts
+that hunt my mind once in a while. </p><p>I hope you like it!</p><div uri="blog/name" image="img/template.jpg" type="article"></div><hr/><div></div> ___]]></content:encoded>
+        </item>
+    </channel>
+</rss>
