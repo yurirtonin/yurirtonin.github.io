@@ -13,7 +13,7 @@
         <link href="https://yurirtonin.github.io/teaching/2022/09/26/introduction"/>
         <updated>2022-09-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[description]]></summary>
-        <content type="html"><![CDATA[<p>This page is intended to host some blog posts that talk about technical and scientific topics that I believe might be useful to other people. </p><p>I hope you can make good use of it!</p><a><div data="[object Object]"></div></a><p>Which surface is the base of the cube?</p><div uri="blog/name" image="img/template.jpg" type="article"></div>]]></content>
+        <content type="html"><![CDATA[<p>Welcome! </p><p>This page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. </p><p>I hope you make good use of it!</p><a><div data="[object Object]"></div></a><div uri="blog/name" image="img/template.jpg" type="article"></div>]]></content>
         <author>
             <name>Yuri R. Tonin</name>
             <uri>https://github.com/yurirt94</uri>

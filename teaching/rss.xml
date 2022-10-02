@@ -13,7 +13,7 @@
             <guid>/2022/09/26/introduction</guid>
             <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[description]]></description>
-            <content:encoded><![CDATA[<p>This page is intended to host some blog posts that talk about technical and scientific topics that I believe might be useful to other people. </p><p>I hope you can make good use of it!</p><a><div data="[object Object]"></div></a><p>Which surface is the base of the cube?</p><div uri="blog/name" image="img/template.jpg" type="article"></div>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Welcome! </p><p>This page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. </p><p>I hope you make good use of it!</p><a><div data="[object Object]"></div></a><div uri="blog/name" image="img/template.jpg" type="article"></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
