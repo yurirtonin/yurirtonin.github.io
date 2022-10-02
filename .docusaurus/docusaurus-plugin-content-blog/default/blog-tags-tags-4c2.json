@@ -5,12 +5,5 @@
     "name": "welcome",
     "count": 1,
     "permalink": "/blog/tags/welcome"
-  },
-  "/blog/tags/blog": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/blog",
-    "name": "blog",
-    "count": 1,
-    "permalink": "/blog/tags/blog"
   }
 }

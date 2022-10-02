@@ -16,7 +16,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Microscopy for dummies",
+            "label": "Microscopy (for dummies)",
             "href": "/docs/Introduction/introfordummies",
             "docId": "Introduction/introfordummies"
           }
@@ -27,8 +27,8 @@
   "docs": {
     "Introduction/introfordummies": {
       "id": "Introduction/introfordummies",
-      "title": "Microscopy for dummies",
-      "description": "Seeing is understanding.",
+      "title": "Microscopy (for dummies)",
+      "description": "Seeing is more than believing.",
       "sidebar": "tutorialSidebar"
     }
   }

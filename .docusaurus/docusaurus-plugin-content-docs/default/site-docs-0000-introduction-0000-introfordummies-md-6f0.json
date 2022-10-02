@@ -1,8 +1,8 @@
 {
   "unversionedId": "Introduction/introfordummies",
   "id": "Introduction/introfordummies",
-  "title": "Microscopy for dummies",
-  "description": "Seeing is understanding.",
+  "title": "Microscopy (for dummies)",
+  "description": "Seeing is more than believing.",
   "source": "@site/docs/0000_Introduction/0000_introfordummies.md",
   "sourceDirName": "0000_Introduction",
   "slug": "/Introduction/introfordummies",
@@ -11,7 +11,7 @@
   "version": "current",
   "sidebarPosition": 0,
   "frontMatter": {
-    "title": "Microscopy for dummies"
+    "title": "Microscopy (for dummies)"
   },
   "sidebar": "tutorialSidebar"
 }

@@ -10,13 +10,9 @@
     {
       "label": "welcome",
       "permalink": "/blog/tags/welcome"
-    },
-    {
-      "label": "blog",
-      "permalink": "/blog/tags/blog"
     }
   ],
-  "readingTime": 0.46,
+  "readingTime": 0.425,
   "truncated": true,
   "authors": [
     {

@@ -34,11 +34,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/blog',
-    component: ComponentCreator('/blog/tags/blog','6a4'),
-    exact: true
-  },
-  {
     path: '/blog/tags/welcome',
     component: ComponentCreator('/blog/tags/welcome','418'),
     exact: true
@@ -61,6 +56,16 @@ export default [
   {
     path: '/teaching/archive',
     component: ComponentCreator('/teaching/archive','435'),
+    exact: true
+  },
+  {
+    path: '/teaching/tags',
+    component: ComponentCreator('/teaching/tags','5d6'),
+    exact: true
+  },
+  {
+    path: '/teaching/tags/welcome',
+    component: ComponentCreator('/teaching/tags/welcome','507'),
     exact: true
   },
   {

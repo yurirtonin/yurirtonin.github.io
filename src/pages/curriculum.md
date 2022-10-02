@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 _Scientific Computing Group | Oct 2021 - Present | Campinas, SP, Brazil_
 
-Image processing. Coherent Diffractive Imaging. Ptychography. Tomography. High Performance Computing. 
+Image processing, Coherent Diffractive Imaging, Ptychography, Tomography and High Performance Computing. 
 
 ### Optical Engineer - Brazilian Synchrotron Light National Laboratory
 

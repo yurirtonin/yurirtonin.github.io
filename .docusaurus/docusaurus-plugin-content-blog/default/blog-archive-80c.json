@@ -14,13 +14,9 @@
           {
             "label": "welcome",
             "permalink": "/blog/tags/welcome"
-          },
-          {
-            "label": "blog",
-            "permalink": "/blog/tags/blog"
           }
         ],
-        "readingTime": 0.46,
+        "readingTime": 0.425,
         "truncated": true,
         "authors": [
           {
@@ -31,7 +27,7 @@
           }
         ]
       },
-      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nWelcome! This is my personal corner. Here I intend to ocasionally post some of my thoughts,\nperhaps some opinions and tell you about some interesting experiences I have had or places I have visited. \n\nIn essence, I hope to expose a little bit about my curiosity about the world and to let out some of those thoughts\nthat hunt my mind once in a while. \n\nI hope you like it!\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>\n\n___\n\n<Reminder />\n___"
+      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nWelcome! \n\nThis is my personal corner. Herein, I intend to ocasionally post some thoughts and \nopinions. Perhaps even tell you about interesting places I've visited and experiences I've had.\n\nIn essence, I hope to expose a little bit of my curiosity about our world and to let out some thoughts\nthat hunt my mind once in a while. \n\nI hope you like it!\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>\n\n___\n\n<Reminder />\n___"
     }
   ]
 }
