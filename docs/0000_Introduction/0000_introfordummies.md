@@ -1,11 +1,19 @@
 ---
-title: Microscopy for dummies
+title: Microscopy (for dummies)
 ---
 
-# Seeing is more than believing
+# Microscopy (for dummies)
+
+<center> <i>
+Seeing is more than believing.
+
+Seeing is understanding.
+And understanding is knowning.
+</i></center>
 
 
-Seeing is understanding. 
-Understanding is knowning
+## What is microscopy?
 
-### Why should you care?
+## Why should you care?
+
+Under construction!
