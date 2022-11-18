@@ -15,12 +15,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','03a'),
+    component: ComponentCreator('/blog','978'),
     exact: true
   },
   {
     path: '/blog/2022/09/26/introduction',
     component: ComponentCreator('/blog/2022/09/26/introduction','3c6'),
+    exact: true
+  },
+  {
+    path: '/blog/2022/11/17/when_monologue_gets_to_you',
+    component: ComponentCreator('/blog/2022/11/17/when_monologue_gets_to_you','360'),
     exact: true
   },
   {
@@ -31,6 +36,26 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','e13'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/andor',
+    component: ComponentCreator('/blog/tags/andor','135'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/monologue',
+    component: ComponentCreator('/blog/tags/monologue','79c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/skaasgard',
+    component: ComponentCreator('/blog/tags/skaasgard','230'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/star-wars',
+    component: ComponentCreator('/blog/tags/star-wars','04e'),
     exact: true
   },
   {

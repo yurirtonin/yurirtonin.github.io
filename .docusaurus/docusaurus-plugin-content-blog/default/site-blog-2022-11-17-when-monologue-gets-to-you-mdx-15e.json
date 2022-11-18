@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/2022/11/17/when_monologue_gets_to_you",
+  "editUrl": "https://github.com/yurirtonin/yurirtonin.github.io/tree/master/blog/2022-11-17-when_monologue_gets_to_you.mdx",
+  "source": "@site/blog/2022-11-17-when_monologue_gets_to_you.mdx",
+  "title": "When a monologue gets to you",
+  "description": "description",
+  "date": "2022-11-17T00:00:00.000Z",
+  "formattedDate": "November 17, 2022",
+  "tags": [
+    {
+      "label": "andor",
+      "permalink": "/blog/tags/andor"
+    },
+    {
+      "label": "star wars",
+      "permalink": "/blog/tags/star-wars"
+    },
+    {
+      "label": "monologue",
+      "permalink": "/blog/tags/monologue"
+    },
+    {
+      "label": "skaasgard",
+      "permalink": "/blog/tags/skaasgard"
+    }
+  ],
+  "readingTime": 2.34,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "nextItem": {
+    "title": "Welcome!",
+    "permalink": "/blog/2022/09/26/introduction"
+  }
+}

@@ -7,10 +7,13 @@
     "component": "1f391b9e",
     "content": "9d5ac290"
   },
-  "/blog-03a": {
+  "/blog-978": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "3ff40342"
+      },
       {
         "content": "c59709d0"
       }
@@ -22,6 +25,11 @@
     "sidebar": "814f3328",
     "content": "bb29a2a2"
   },
+  "/blog/2022/11/17/when_monologue_gets_to_you-360": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "15e33318"
+  },
   "/blog/archive-f4c": {
     "component": "9e4087bc",
     "archive": "b2f554cd"
@@ -30,6 +38,46 @@
     "component": "01a85c17",
     "sidebar": "814f3328",
     "tags": "a7023ddc"
+  },
+  "/blog/tags/andor-135": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "metadata": "1554ee31"
+  },
+  "/blog/tags/monologue-79c": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "metadata": "274d00a7"
+  },
+  "/blog/tags/skaasgard-230": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "metadata": "60f1ddb3"
+  },
+  "/blog/tags/star-wars-04e": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "metadata": "938244fe"
   },
   "/blog/tags/welcome-418": {
     "component": "6875c492",
