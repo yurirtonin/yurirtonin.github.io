@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"When a monologue gets to you","permalink":"/blog/2022/11/17/when_monologue_gets_to_you"},{"title":"Welcome!","permalink":"/blog/2022/09/26/introduction"}]}')}}]);
