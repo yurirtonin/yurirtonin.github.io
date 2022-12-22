@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 # Curriculum
 
-[PDF](../../static/documents/CV_english.pdf)  | [LinkedIn](https://www.linkedin.com/in/yuri-rossi-tonin) | [GitHub](https://github.com/yurirt94) | 
+[PDF](../../static/documents/CV_english.pdf)  | [LinkedIn](https://www.linkedin.com/in/yuri-rossi-tonin) | [GitHub](https://github.com/yurirtonin) | 
 
 ## Professional Experience
 
@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 _Scientific Computing Group | Oct 2021 - Present | Campinas, SP, Brazil_
 
-Image processing, Coherent Diffractive Imaging, Ptychography, Tomography and High Performance Computing. 
+Computational science and engineering. Software development for image processing and reconstruction. Main activities focuses on Tomography, Coherent Diffractive Imaging (Ptychography, Plane Wave CDI) and High Performance Computing. Overall user support.
 
 ### Optical Engineer - Brazilian Synchrotron Light National Laboratory
 
@@ -82,6 +82,15 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 - - -
 
 ## Publications
+
+- [Dimensional and optical metrology of ultra-stable exactly-constrained KB mirror sets](https://doi.org/10.1117/12.2633679)
+
+    Published in Proc. SPIE 12240, Advances in X-Ray/EUV Optics and Components XVII, 122400F, 2022.
+
+- [Exactly-constrained KB Mirrors for Sirius/LNLS Beamlines: Design and Commissioning of the TARUMÃ Station Nanofocusing Optics at CARNAÚBA Beamline](https://doi.org/10.18429/JACoW-MEDSI2020-TUOB01)
+
+    Published in Mechanical Engineering Design of Synchrotron Radiation Equipment and Instrumentation (MEDSI2020), JACoW Publishing, 2021.
+
 
 - [Surface metrology of cylindrical mirrors with sagittal curvature in low spatial frequency range](https://doi.org/10.1117/12.2568868)
 
