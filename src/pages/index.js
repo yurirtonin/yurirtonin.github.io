@@ -38,12 +38,12 @@ function Home() {
 		}),
 		translate({
 			id: 'homepage.description.descriptionLine_3',
-			message: 'Scientific and High Performance Computing',
+			message: 'Image Reconstruction and High Performance Computing',
 			description: 'The third line of description',
 		}),
 		translate({
 			id: 'homepage.description.descriptionLine_4',
-			message: 'Brazilian Synchrotron Light Laboratory',
+			message: 'Brazilian Synchrotron Light Laboratory (LNLS)',
 			description: 'The fourth line of description',
 		}),
 	];
