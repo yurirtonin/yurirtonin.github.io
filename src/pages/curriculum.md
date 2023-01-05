@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## Professional Experience
 
-### Physics Engineer - Brazilian Synchrotron Light National Laboratory
+### Computational Scientist - Brazilian Synchrotron Light National Laboratory
 
 _Scientific Computing Group | Oct 2021 - Present | Campinas, SP, Brazil_
 
