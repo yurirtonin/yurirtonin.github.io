@@ -26,7 +26,7 @@
           }
         ]
       },
-      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\n\nWelcome! \n\nThis page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. \n\nI hope you make good use of it!\n\n<a >\n    <Figure \n      data={{\n            src: '/img/logo.png',\n            alt: 'TheCube',\n            type: 'image'\n      }} \n    />\n</a>\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>"
+      "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\n\nWelcome! \n\nThis page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. \n\nI hope you make good use of it!\n \n<a >\n    <Figure \n      data={{\n            src: '/img/logo.png',\n            alt: 'TheCube',\n            type: 'image'\n      }} \n    />\n     \n</a>\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>"
     }
   ]
 }

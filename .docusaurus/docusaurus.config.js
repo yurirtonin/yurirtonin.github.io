@@ -1,6 +1,6 @@
 export default {
   "title": "Yuri Rossi Tonin",
-  "tagline": "Researcher / Engineer from Brazil",
+  "tagline": "Computational Scientist from Brazil",
   "url": "https://yurirtonin.github.io",
   "baseUrl": "/",
   "favicon": "img/favicon.ico",
@@ -17,7 +17,7 @@ export default {
   "themeConfig": {
     "announcementBar": {
       "id": "shareme",
-      "content": "If you like my content, please share it on your social networks!",
+      "content": "If you like this content, would you kindly share it on your social networks? :)",
       "isCloseable": true
     },
     "navbar": {
@@ -36,7 +36,7 @@ export default {
         },
         {
           "type": "doc",
-          "docId": "Introduction/introfordummies",
+          "docId": "Introduction for everyone/intro",
           "label": "Research",
           "position": "left",
           "to": "/docs"
@@ -137,7 +137,13 @@ export default {
           "customCss": "/Users/yuri/yurirtonin.github.io/src/css/custom.css"
         },
         "docs": {
-          "sidebarPath": "/Users/yuri/yurirtonin.github.io/sidebars.js"
+          "sidebarPath": "/Users/yuri/yurirtonin.github.io/sidebars.js",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         }
       }
     ]
@@ -151,6 +157,14 @@ export default {
         "path": "./teaching"
       }
     ]
+  ],
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      "crossorigin": "anonymous"
+    }
   ],
   "i18n": {
     "defaultLocale": "en",

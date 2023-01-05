@@ -10,25 +10,37 @@
     "tutorialSidebar": [
       {
         "type": "category",
-        "label": "Introduction",
+        "label": "Introduction for everyone",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Microscopy (for dummies)",
-            "href": "/docs/Introduction/introfordummies",
-            "docId": "Introduction/introfordummies"
+            "label": "What is microscopy?",
+            "href": "/docs/Introduction for everyone/intro",
+            "docId": "Introduction for everyone/intro"
+          },
+          {
+            "type": "link",
+            "label": "X-Ray Imaging",
+            "href": "/docs/Introduction for everyone/xrayimaging",
+            "docId": "Introduction for everyone/xrayimaging"
           }
         ]
       }
     ]
   },
   "docs": {
-    "Introduction/introfordummies": {
-      "id": "Introduction/introfordummies",
-      "title": "Microscopy (for dummies)",
-      "description": "Seeing is more than believing.",
+    "Introduction for everyone/intro": {
+      "id": "Introduction for everyone/intro",
+      "title": "What is microscopy?",
+      "description": "In a nutshell, microscopy is about seeing things that we cannot see with the naked eye...",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction for everyone/xrayimaging": {
+      "id": "Introduction for everyone/xrayimaging",
+      "title": "X-Ray Imaging",
+      "description": "Coming soon!",
       "sidebar": "tutorialSidebar"
     }
   }

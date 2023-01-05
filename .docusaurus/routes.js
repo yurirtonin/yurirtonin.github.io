@@ -95,11 +95,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f1e'),
+    component: ComponentCreator('/docs','82f'),
     routes: [
       {
-        path: '/docs/Introduction/introfordummies',
-        component: ComponentCreator('/docs/Introduction/introfordummies','45e'),
+        path: '/docs/Introduction for everyone/intro',
+        component: ComponentCreator('/docs/Introduction for everyone/intro','41f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Introduction for everyone/xrayimaging',
+        component: ComponentCreator('/docs/Introduction for everyone/xrayimaging','b93'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

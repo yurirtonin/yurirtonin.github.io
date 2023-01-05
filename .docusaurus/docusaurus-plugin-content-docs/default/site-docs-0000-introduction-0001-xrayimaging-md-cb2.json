@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Introduction/xrayimaging",
+  "id": "Introduction/xrayimaging",
+  "title": "X-Ray Imaging",
+  "description": "Coming soon!",
+  "source": "@site/docs/0000_Introduction/0001_xrayimaging.md",
+  "sourceDirName": "0000_Introduction",
+  "slug": "/Introduction/xrayimaging",
+  "permalink": "/docs/Introduction/xrayimaging",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "X-Ray Imaging"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What is microscopy?",
+    "permalink": "/docs/Introduction/intro"
+  }
+}

@@ -1,8 +1,10 @@
 const config = require('./website_config.json');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 module.exports = {
     title: 'Yuri Rossi Tonin',
-    tagline: 'Researcher / Engineer from Brazil',
+    tagline: 'Computational Scientist from Brazil',
     url: 'https://yurirtonin.github.io',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
@@ -19,7 +21,7 @@ module.exports = {
     themeConfig: {
         announcementBar: {
             id: 'shareme',
-            content: 'If you like my content, please share it on your social networks!'
+            content: 'If you like this content, would you kindly share it on your social networks? :)'
         },
         navbar: {
             hideOnScroll: false,
@@ -37,7 +39,7 @@ module.exports = {
                 },
                 {
                     type: 'doc',
-                    docId: 'Introduction/introfordummies',
+                    docId: 'Introduction for everyone/intro',
                     label: 'Research',
                     position: 'left',
                     to: '/docs'
@@ -132,6 +134,8 @@ module.exports = {
                 },
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
+                    remarkPlugins: [math],
+                    rehypePlugins: [katex],
                   }
             }
         ]
@@ -155,6 +159,15 @@ module.exports = {
             path: './teaching',
           },
         ],
+      ],
+      stylesheets: [
+        {
+          href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+          type: 'text/css',
+          integrity:
+            'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+          crossorigin: 'anonymous',
+        },
       ],
     i18n: {
         defaultLocale: 'en',

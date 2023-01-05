@@ -1,7 +1,7 @@
 {
   "unversionedId": "Introduction/introfordummies",
   "id": "Introduction/introfordummies",
-  "title": "Microscopy (for dummies)",
+  "title": "What is microscopy?",
   "description": "Seeing is more than believing.",
   "source": "@site/docs/0000_Introduction/0000_introfordummies.md",
   "sourceDirName": "0000_Introduction",
@@ -11,7 +11,11 @@
   "version": "current",
   "sidebarPosition": 0,
   "frontMatter": {
-    "title": "Microscopy (for dummies)"
+    "title": "What is microscopy?"
   },
-  "sidebar": "tutorialSidebar"
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "X-Ray Imaging",
+    "permalink": "/docs/Introduction/xrayimaging"
+  }
 }

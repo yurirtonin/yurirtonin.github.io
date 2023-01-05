@@ -17,40 +17,69 @@
           "contentPathLocalized": "/Users/yuri/yurirtonin.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "Introduction/introfordummies",
-              "id": "Introduction/introfordummies",
-              "title": "Microscopy (for dummies)",
-              "description": "Seeing is more than believing.",
-              "source": "@site/docs/0000_Introduction/0000_introfordummies.md",
-              "sourceDirName": "0000_Introduction",
-              "slug": "/Introduction/introfordummies",
-              "permalink": "/docs/Introduction/introfordummies",
+              "unversionedId": "Introduction for everyone/intro",
+              "id": "Introduction for everyone/intro",
+              "title": "What is microscopy?",
+              "description": "In a nutshell, microscopy is about seeing things that we cannot see with the naked eye...",
+              "source": "@site/docs/0000_Introduction for everyone/0000_intro.mdx",
+              "sourceDirName": "0000_Introduction for everyone",
+              "slug": "/Introduction for everyone/intro",
+              "permalink": "/docs/Introduction for everyone/intro",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
               "frontMatter": {
-                "title": "Microscopy (for dummies)"
+                "title": "What is microscopy?"
               },
-              "sidebar": "tutorialSidebar"
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "X-Ray Imaging",
+                "permalink": "/docs/Introduction for everyone/xrayimaging"
+              }
+            },
+            {
+              "unversionedId": "Introduction for everyone/xrayimaging",
+              "id": "Introduction for everyone/xrayimaging",
+              "title": "X-Ray Imaging",
+              "description": "Coming soon!",
+              "source": "@site/docs/0000_Introduction for everyone/0001_xrayimaging.md",
+              "sourceDirName": "0000_Introduction for everyone",
+              "slug": "/Introduction for everyone/xrayimaging",
+              "permalink": "/docs/Introduction for everyone/xrayimaging",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "X-Ray Imaging"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "What is microscopy?",
+                "permalink": "/docs/Introduction for everyone/intro"
+              }
             }
           ],
           "sidebars": {
             "tutorialSidebar": [
               {
                 "type": "category",
-                "label": "Introduction",
+                "label": "Introduction for everyone",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Introduction/introfordummies"
+                    "id": "Introduction for everyone/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction for everyone/xrayimaging"
                   }
                 ]
               }
             ]
           },
-          "mainDocId": "Introduction/introfordummies",
+          "mainDocId": "Introduction for everyone/intro",
           "categoryGeneratedIndices": []
         }
       ]
@@ -88,7 +117,7 @@
                 "permalink": "/blog/tags/skaasgard"
               }
             ],
-            "readingTime": 2.34,
+            "readingTime": 2.28,
             "truncated": true,
             "authors": [
               {
@@ -103,7 +132,7 @@
               "permalink": "/blog/2022/09/26/introduction"
             }
           },
-          "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nI started watching Disney's \"Star Wars Andor\" a few days ago and, boy, what a (unexpected) great experience! \n\nIn some sense, Andor compiles much of what makes me love movies and TV shows. A great script makes you curious about what the characters are planning next and make you put yourself in their positions and think: \"Would I do the same as they right now?\". In special, science-fiction allow for environments that we, plain 21st century human beings, will never be able to experience. These environments many time allow writers/directors/actors to explore human feelings in ways that would hardly be possible otherwise. And on top of that, Andor gives us amazing scenarios and CGI, which constantly reminds me how far technology has come to make us wonder and to improve our lives.\n\nBut besides that, few things get to me as great dialogues and, particularly, monologues. I can safely say that Andor has given me one of my favorite monologues of my life. Few have caused me to feel the way I did right there, when I first heard it. In one scene of the 10th episode, Luthen (interpreted by the impeccable Stellan Skarsgård), is confronted by another character. In a rather angry and defying tone, he puts into question Luthen's contributtion to the Rebellion by asking:\n\n> \"And what do you sacrifice!?\"\n\nTo which a dark, introspective Skarsgård responds: \n\n> \"Calm. Kindness. Kinship. Love...\n> \n> I’ve given up all chance at inner peace. I’ve made my mind a sunless space. I share my dreams with ghosts.  \n> \n> I wake up every day to an equation I wrote 15 years ago for which there’s only one conclusion: I’m damned for what I do. \n> \n> My anger, my ego, my unwillingness to yield, my... my eagerness to fight, they’ve set me on a path from which there is no escape. I yearned to be a savior against injustice without contemplating the cost and, by the time I looked down, there was no longer any ground beneath my feet.\n> \n> What is my… what is my sacrifice?\n> \n> I’m condemned to use the tools of my enemy to defeat them. I burn my decency for someone else’s future. I burn my life to make a sunrise that I know I’ll never see. Now the ego that started this fight will never have a mirror or an audience or... or the light of gratitude. \n> \n> So what do I sacrifice? \n> \n> Everything!\"\n\nWhat a monologue, my friends, what a monologue...\n\nAs long as the screens keep giving us pieces like this now and then, I am sure I will keep giving them my ~~money~~ love.\n\nBest,\n\nY.\n\n<!--truncate-->\n\n___\n\n<Reminder />\n___"
+          "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\nI started watching Disney's \"Star Wars Andor\" a few days ago and, boy, what a (unexpected) great experience! \n\nIn some sense, Andor compiles much of what makes me love movies and TV shows. A great script makes you curious about what the characters are planning next and makes you put yourself in their positions: \"Would I do the same as them right now?\". In special, science-fiction creates environments that we, plain 21st century human beings, will never be able to experience. These environments allow writers/directors/actors to explore human feelings in ways that would hardly be possible otherwise. And on top of that, Andor gives us amazing scenarios and CGI, which constantly reminds me how far technology has come to make us dream and wonder.\n\nBut besides that, few things get to me as great dialogues (and, particularly, monologues) do. I can safely say that Andor has given me one of my favorite monologues of all time. Few have caused me to feel the way I did right there, when I first heard it. In the 10th episode, Luthen (interpreted by the impeccable Stellan Skarsgård), is confronted by another character. In a rather defying tone, he puts into question Luthen's contributtion to the Rebellion by asking:\n\n> \"And what do you sacrifice!?\"\n\nTo which a dark, introspective Skarsgård responds: \n\n> \"Calm. Kindness. Kinship. Love...\n> \n> I’ve given up all chance at inner peace. I’ve made my mind a sunless space. I share my dreams with ghosts.  \n> \n> I wake up every day to an equation I wrote 15 years ago for which there’s only one conclusion: I’m damned for what I do. \n> \n> My anger, my ego, my unwillingness to yield, my... my eagerness to fight, they’ve set me on a path from which there is no escape. I yearned to be a savior against injustice without contemplating the cost and, by the time I looked down, there was no longer any ground beneath my feet.\n> \n> What is my… what is my sacrifice?\n> \n> I’m condemned to use the tools of my enemy to defeat them. I burn my decency for someone else’s future. I burn my life to make a sunrise that I know I’ll never see. Now the ego that started this fight will never have a mirror or an audience or... or the light of gratitude. \n> \n> So what do I sacrifice? \n> \n> Everything!\"\n\nWhat a monologue, my friends, what a monologue...\n\nAs long as the screens keep giving us pieces like this now and then, I am sure I will keep giving them my ~~money~~ love.\n\nBest,\n\nY.\n\n<!--truncate-->\n\n___\n\n<Reminder />\n___"
         },
         {
           "id": "/2022/09/26/introduction",
@@ -226,7 +255,7 @@
               }
             ]
           },
-          "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\n\nWelcome! \n\nThis page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. \n\nI hope you make good use of it!\n\n<a >\n    <Figure \n      data={{\n            src: '/img/logo.png',\n            alt: 'TheCube',\n            type: 'image'\n      }} \n    />\n</a>\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>"
+          "content": "import Figure from '../src/components/figure';\nimport SEO from '../src/components/seo';\nimport Reminder from '../src/components/reminder';\n\n\nWelcome! \n\nThis page is intended to host posts about technical and scientific topics that (I believe) might be useful to others. \n\nI hope you make good use of it!\n \n<a >\n    <Figure \n      data={{\n            src: '/img/logo.png',\n            alt: 'TheCube',\n            type: 'image'\n      }} \n    />\n     \n</a>\n\n<!--truncate-->\n\n<SEO\n  uri='blog/name'\n  image='img/template.jpg'\n  type='article'\n/>"
         }
       ],
       "blogListPaginated": [

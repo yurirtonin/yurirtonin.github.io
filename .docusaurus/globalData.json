@@ -8,11 +8,16 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Introduction/introfordummies",
+          "mainDocId": "Introduction for everyone/intro",
           "docs": [
             {
-              "id": "Introduction/introfordummies",
-              "path": "/docs/Introduction/introfordummies",
+              "id": "Introduction for everyone/intro",
+              "path": "/docs/Introduction for everyone/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction for everyone/xrayimaging",
+              "path": "/docs/Introduction for everyone/xrayimaging",
               "sidebar": "tutorialSidebar"
             }
           ]

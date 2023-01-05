@@ -1,0 +1,21 @@
+{
+  "unversionedId": "IntroductionA/intro",
+  "id": "IntroductionA/intro",
+  "title": "What is microscopy?",
+  "description": "Seeing is more than believing.",
+  "source": "@site/docs/0000_IntroductionA/0000_intro.md",
+  "sourceDirName": "0000_IntroductionA",
+  "slug": "/IntroductionA/intro",
+  "permalink": "/docs/IntroductionA/intro",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "What is microscopy?"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "X-Ray Imaging",
+    "permalink": "/docs/IntroductionA/xrayimaging"
+  }
+}
