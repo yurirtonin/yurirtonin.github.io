@@ -1,0 +1,35 @@
+{
+  "unversionedId": "X-Ray Imaging Techniques/2023-06-27-linearsystems",
+  "id": "X-Ray Imaging Techniques/2023-06-27-linearsystems",
+  "title": "Solving linear systems",
+  "description": "description",
+  "source": "@site/docs/0001_X-Ray Imaging Techniques/2023-06-27-linearsystems.mdx",
+  "sourceDirName": "0001_X-Ray Imaging Techniques",
+  "slug": "/X-Ray Imaging Techniques/2023-06-27-linearsystems",
+  "permalink": "/docs/X-Ray Imaging Techniques/2023-06-27-linearsystems",
+  "tags": [
+    {
+      "label": "linear system",
+      "permalink": "/docs/tags/linear-system"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Solving linear systems",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "linear system"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ptychography",
+    "permalink": "/docs/X-Ray Imaging Techniques/ptychography"
+  }
+}

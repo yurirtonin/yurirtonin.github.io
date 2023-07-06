@@ -2,7 +2,7 @@
   "unversionedId": "Introduction for everyone/xrayimaging",
   "id": "Introduction for everyone/xrayimaging",
   "title": "X-Ray Imaging",
-  "description": "Coming soon!",
+  "description": "What is X-Ray imaging?",
   "source": "@site/docs/0000_Introduction for everyone/0001_xrayimaging.md",
   "sourceDirName": "0000_Introduction for everyone",
   "slug": "/Introduction for everyone/xrayimaging",
@@ -17,5 +17,9 @@
   "previous": {
     "title": "What is microscopy?",
     "permalink": "/docs/Introduction for everyone/intro"
+  },
+  "next": {
+    "title": "Coherent Diffractive Imaging",
+    "permalink": "/docs/X-Ray Imaging Techniques/cdi"
   }
 }

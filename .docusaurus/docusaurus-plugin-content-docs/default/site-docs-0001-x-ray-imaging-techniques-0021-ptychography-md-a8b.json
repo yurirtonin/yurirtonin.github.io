@@ -1,0 +1,21 @@
+{
+  "unversionedId": "X-Ray Imaging Techniques/ptychography",
+  "id": "X-Ray Imaging Techniques/ptychography",
+  "title": "Ptychography",
+  "description": "Ptychography is a solution to the phase problem.",
+  "source": "@site/docs/0001_X-Ray Imaging Techniques/0021_ptychography.md",
+  "sourceDirName": "0001_X-Ray Imaging Techniques",
+  "slug": "/X-Ray Imaging Techniques/ptychography",
+  "permalink": "/docs/X-Ray Imaging Techniques/ptychography",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "title": "Ptychography"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coherent Diffractive Imaging",
+    "permalink": "/docs/X-Ray Imaging Techniques/cdi"
+  }
+}

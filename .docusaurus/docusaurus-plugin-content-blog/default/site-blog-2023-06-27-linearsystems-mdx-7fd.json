@@ -1,0 +1,29 @@
+{
+  "permalink": "/blog/2023/06/27/linearsystems",
+  "editUrl": "https://github.com/yurirtonin/yurirtonin.github.io/tree/master/blog/2023-06-27-linearsystems.mdx",
+  "source": "@site/blog/2023-06-27-linearsystems.mdx",
+  "title": "Solving linear systems",
+  "description": "description",
+  "date": "2023-06-27T00:00:00.000Z",
+  "formattedDate": "June 27, 2023",
+  "tags": [
+    {
+      "label": "linear system",
+      "permalink": "/blog/tags/linear-system"
+    }
+  ],
+  "readingTime": 0.68,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "nextItem": {
+    "title": "When a monologue gets to you",
+    "permalink": "/blog/2022/11/17/when_monologue_gets_to_you"
+  }
+}

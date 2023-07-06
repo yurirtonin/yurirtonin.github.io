@@ -154,7 +154,13 @@ export default {
       {
         "id": "teaching-blog",
         "routeBasePath": "teaching",
-        "path": "./teaching"
+        "path": "./teaching",
+        "remarkPlugins": [
+          null
+        ],
+        "rehypePlugins": [
+          null
+        ]
       }
     ]
   ],

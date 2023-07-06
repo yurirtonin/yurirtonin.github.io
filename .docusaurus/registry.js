@@ -32,6 +32,5 @@ export default {
   'c59709d0': [() => import(/* webpackChunkName: 'c59709d0' */ "@site/blog/2022-09-26-introduction.mdx?truncated=true"), "@site/blog/2022-09-26-introduction.mdx?truncated=true", require.resolveWeak("@site/blog/2022-09-26-introduction.mdx?truncated=true")],
   'ccc49370': [() => import(/* webpackChunkName: 'ccc49370' */ "@theme/BlogPostPage"), "@theme/BlogPostPage", require.resolveWeak("@theme/BlogPostPage")],
   'd25c3fbc': [() => import(/* webpackChunkName: 'd25c3fbc' */ "~blog/teaching-blog/teaching-archive-a9d.json"), "~blog/teaching-blog/teaching-archive-a9d.json", require.resolveWeak("~blog/teaching-blog/teaching-archive-a9d.json")],
-  'dcd50964': [() => import(/* webpackChunkName: 'dcd50964' */ "@site/docs/0000_Introduction for everyone/0001_xrayimaging.md"), "@site/docs/0000_Introduction for everyone/0001_xrayimaging.md", require.resolveWeak("@site/docs/0000_Introduction for everyone/0001_xrayimaging.md")],
   'ea36e763': [() => import(/* webpackChunkName: 'ea36e763' */ "~blog/teaching-blog/teaching-02a.json"), "~blog/teaching-blog/teaching-02a.json", require.resolveWeak("~blog/teaching-blog/teaching-02a.json")],
   'f6ba3702': [() => import(/* webpackChunkName: 'f6ba3702' */ "~blog/default/blog-tags-welcome-11d.json"), "~blog/default/blog-tags-welcome-11d.json", require.resolveWeak("~blog/default/blog-tags-welcome-11d.json")],};

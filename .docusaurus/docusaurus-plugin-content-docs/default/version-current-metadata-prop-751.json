@@ -19,12 +19,6 @@
             "label": "What is microscopy?",
             "href": "/docs/Introduction for everyone/intro",
             "docId": "Introduction for everyone/intro"
-          },
-          {
-            "type": "link",
-            "label": "X-Ray Imaging",
-            "href": "/docs/Introduction for everyone/xrayimaging",
-            "docId": "Introduction for everyone/xrayimaging"
           }
         ]
       }
@@ -35,12 +29,6 @@
       "id": "Introduction for everyone/intro",
       "title": "What is microscopy?",
       "description": "In a nutshell, microscopy is about seeing things that we cannot see with the naked eye...",
-      "sidebar": "tutorialSidebar"
-    },
-    "Introduction for everyone/xrayimaging": {
-      "id": "Introduction for everyone/xrayimaging",
-      "title": "X-Ray Imaging",
-      "description": "Coming soon!",
       "sidebar": "tutorialSidebar"
     }
   }

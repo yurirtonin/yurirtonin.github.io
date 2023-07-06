@@ -1,0 +1,25 @@
+{
+  "unversionedId": "X-Ray Imaging Techniques/cdi",
+  "id": "X-Ray Imaging Techniques/cdi",
+  "title": "Coherent Diffractive Imaging",
+  "description": "Lens vs Lensless imaging",
+  "source": "@site/docs/0001_X-Ray Imaging Techniques/0020_cdi.md",
+  "sourceDirName": "0001_X-Ray Imaging Techniques",
+  "slug": "/X-Ray Imaging Techniques/cdi",
+  "permalink": "/docs/X-Ray Imaging Techniques/cdi",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "Coherent Diffractive Imaging"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "X-Ray Imaging",
+    "permalink": "/docs/Introduction for everyone/xrayimaging"
+  },
+  "next": {
+    "title": "Ptychography",
+    "permalink": "/docs/X-Ray Imaging Techniques/ptychography"
+  }
+}

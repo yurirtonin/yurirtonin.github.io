@@ -1,0 +1,28 @@
+{
+  "permalink": "/teaching/2023/06/27/linearsystems",
+  "source": "@site/teaching/2023-06-27-linearsystems.md",
+  "title": "Solving linear systems",
+  "description": "description",
+  "date": "2023-06-27T00:00:00.000Z",
+  "formattedDate": "June 27, 2023",
+  "tags": [
+    {
+      "label": "linear system",
+      "permalink": "/teaching/tags/linear-system"
+    }
+  ],
+  "readingTime": 1.02,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "nextItem": {
+    "title": "Welcome to my teaching space!",
+    "permalink": "/teaching/2022/09/26/introduction"
+  }
+}
