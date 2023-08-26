@@ -36,9 +36,14 @@ The methods for solving such system can be divided into two main families: *dire
   - Jacobi iteration
   - Gauss-Seidel method
   - Successive over relaxation
-  - Krylov subspace methods
+  - Krylov subspace methods:
     - Conjugate gradient
-    - Generalized Minimal Residual (GMRES) 
+    - IDR(s) (Induced dimension reduction)
+    - GMRES (generalized minimum residual)
+    - BiCGSTAB (biconjugate gradient stabilized)
+    - QMR (quasi minimal residual)
+    - TFQMR (transpose-free QMR)
+    - MINRES (minimal residual method).
 
 More details about each of them will come in the near future. 
 

@@ -30,7 +30,7 @@ Put image of EM spectrum here
 
 ## Absorption Imaging
 
-Now, in order to understand how X-Ray imaging works in the traditional sense, let's start with a pictorial view. Think simply of a hand being illuminated by a lantern and the shadow being projected in a white wall. The light travels from the flashlight to your hand and hits it. The portion not blocked by your hand continues to travel until it hits the wall, where you can see the non-illuminated portion as your hand's shadow. In other words, the portion of the wall that gets illuminated is bright; the portion that does not, is dark. 
+Now, in order to understand how X-Ray imaging works in the traditional sense, let's start with a pictorial view. Think simply of your hand being illuminated by a lantern and the shadow being projected in a white wall. The light travels from the flashlight to your hand and hits it. The portion not blocked by your hand continues to travel until it hits the wall, where you can see the non-illuminated portion as your hand's shadow. In other words, the portion of the wall that gets illuminated is bright; the portion that does not, is dark. 
 
 Sounds simple, right?
 
