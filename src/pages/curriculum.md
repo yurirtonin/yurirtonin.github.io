@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 _Scientific Computing Group | Oct 2021 - Present | Campinas, SP, Brazil_
 
-Computational science and engineering. Software development for image processing and reconstruction. Main activities focuses on Tomography, Coherent Diffractive Imaging (Ptychography, Plane Wave CDI) and High Performance Computing. Overall user support.
+Computational science and engineering. Software development for image processing and reconstruction. Main activities focus on Tomography, Coherent Imaging (Ptychography, Plane Wave CDI, Holography) and High Performance Computing. Overall user support.
 
 ### Optical Engineer - Brazilian Synchrotron Light National Laboratory
 
@@ -82,6 +82,10 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 - - -
 
 ## Publications
+
+- [Ptychographic X-ray computed tomography of porous membranes with nanoscale resolution](https://doi.org/10.1038/s43246-023-00396-x)
+
+    Published in Nature Communications Material 4, 68, 2023.
 
 - [Dimensional and optical metrology of ultra-stable exactly-constrained KB mirror sets](https://doi.org/10.1117/12.2633679)
 
