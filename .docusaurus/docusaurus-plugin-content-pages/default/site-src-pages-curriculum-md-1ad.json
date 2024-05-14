@@ -1,5 +1,12 @@
 {
   "type": "mdx",
   "permalink": "/curriculum",
-  "source": "@site/src/pages/curriculum.md"
+  "source": "@site/src/pages/curriculum.md",
+  "title": "Curriculum",
+  "description": "PDF  | LinkedIn | GitHub |",
+  "frontMatter": {
+    "title": "Curriculum",
+    "hide_table_of_contents": true
+  },
+  "unlisted": false
 }

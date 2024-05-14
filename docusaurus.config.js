@@ -1,6 +1,8 @@
 const config = require('./website_config.json');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 
 module.exports = {
     title: 'Yuri Rossi Tonin',
@@ -19,10 +21,10 @@ module.exports = {
     projectName: config.REPOSITORY_NAME,
     deploymentBranch:'gh-pages',
     themeConfig: {
-        announcementBar: {
-            id: 'shareme',
-            content: 'If you like this content, would you kindly share it on your social networks? :)'
-        },
+        // announcementBar: {
+        //     id: 'shareme',
+        //     content: 'A friendly reminder: consider sharing if you found this content useful! ;) '
+        // },
         navbar: {
             hideOnScroll: false,
             title: "Yuri R. Tonin",// config.REPOSITORY_NAME,
@@ -49,11 +51,11 @@ module.exports = {
                     position: 'left',
                     to: '/teaching'
                 },
-                {
-                    label: 'Blog',
-                    position: 'left',
-                    to: '/blog'
-                },
+                // {
+                //     label: 'Blog',
+                //     position: 'left',
+                //     to: '/blog'
+                // },
 
                 // {
                 //     type: 'localeDropdown',
@@ -102,14 +104,8 @@ module.exports = {
             additionalLanguages: ['csharp']
         },
 
-        googleAnalytics: {
-            trackingID: config.TRACKING_ID,
-            anonymizeIP: config.ANONYMIZE_IP
-        },
-        gtag: {
-            trackingID: config.TRACKING_ID,
-            anonymizeIP: config.ANONYMIZE_IP
-        },
+
+
         sitemap: {
             cacheTime: 600 * 1000, // 600 sec - cache purge period
             changefreq: 'weekly',
@@ -134,9 +130,18 @@ module.exports = {
                 },
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    remarkPlugins: [math],
-                    rehypePlugins: [katex],
-                  }
+                    path: 'docs',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
+                  },
+                  gtag: {
+                    trackingID: config.TRACKING_ID,
+                    anonymizeIP: config.ANONYMIZE_IP
+                },
+                googleAnalytics: {
+                    trackingID: config.TRACKING_ID,
+                    anonymizeIP: config.ANONYMIZE_IP
+                },
             }
         ]
     ],
@@ -157,18 +162,18 @@ module.exports = {
              * Path to data on filesystem relative to site dir.
              */
             path: './teaching',
-            remarkPlugins: [math],
-            rehypePlugins: [katex],
+            remarkPlugins: [remarkMath],
+            rehypePlugins: [rehypeKatex],
           },
         ],
       ],
       stylesheets: [
         {
-          href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-          type: 'text/css',
-          integrity:
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+        type: 'text/css',
+        integrity:
             'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-          crossorigin: 'anonymous',
+        crossorigin: 'anonymous',
         },
       ],
     i18n: {

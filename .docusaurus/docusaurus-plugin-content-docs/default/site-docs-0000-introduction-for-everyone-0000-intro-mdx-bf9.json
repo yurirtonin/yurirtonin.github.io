@@ -1,5 +1,4 @@
 {
-  "unversionedId": "Introduction for everyone/intro",
   "id": "Introduction for everyone/intro",
   "title": "What is microscopy?",
   "description": "In a nutshell, microscopy is about seeing things that we cannot see with the naked eye...",
@@ -7,6 +6,8 @@
   "sourceDirName": "0000_Introduction for everyone",
   "slug": "/Introduction for everyone/intro",
   "permalink": "/docs/Introduction for everyone/intro",
+  "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 0,

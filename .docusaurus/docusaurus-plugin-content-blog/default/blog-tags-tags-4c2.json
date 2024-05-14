@@ -1,4 +1,11 @@
 {
+  "/blog/tags/welcome": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/welcome",
+    "name": "welcome",
+    "count": 2,
+    "permalink": "/blog/tags/welcome"
+  },
   "/blog/tags/andor": {
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/andor",
@@ -26,12 +33,5 @@
     "name": "skaasgård",
     "count": 1,
     "permalink": "/blog/tags/skaasgard"
-  },
-  "/blog/tags/welcome": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/welcome",
-    "name": "welcome",
-    "count": 1,
-    "permalink": "/blog/tags/welcome"
   }
 }

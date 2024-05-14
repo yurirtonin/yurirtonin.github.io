@@ -2,8 +2,14 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Wavefront Propagation",
+      "permalink": "/teaching/2024/05/09/propagators",
+      "unlisted": false
+    },
+    {
       "title": "Welcome to my teaching space!",
-      "permalink": "/teaching/2022/09/26/introduction"
+      "permalink": "/teaching/2022/09/26/introduction",
+      "unlisted": false
     }
   ]
 }

@@ -1,5 +1,12 @@
 {
   "type": "mdx",
   "permalink": "/aboutwebsite",
-  "source": "@site/src/pages/aboutwebsite.md"
+  "source": "@site/src/pages/aboutwebsite.md",
+  "title": "About this website",
+  "description": "This website was created with Docusaurus 2.0.",
+  "frontMatter": {
+    "title": "About this website",
+    "hide_table_of_contents": true
+  },
+  "unlisted": false
 }

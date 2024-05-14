@@ -2,7 +2,7 @@
   "unversionedId": "X-Ray Imaging Techniques/cdi",
   "id": "X-Ray Imaging Techniques/cdi",
   "title": "Coherent Diffractive Imaging",
-  "description": "Lens vs Lensless imaging",
+  "description": "Coherent Diffractive Imaging is a hot topic! It's has been steadily developing for the past 30 years and to the newcomers, the amount of information can be a bit overwhelming. Herein I intend of providing a summary of this topic together with some of the mathematical details that I find not intuitive to understand (and sometimes hard to find at the literature) at first.",
   "source": "@site/docs/0001_X-Ray Imaging Techniques/0020_cdi.md",
   "sourceDirName": "0001_X-Ray Imaging Techniques",
   "slug": "/X-Ray Imaging Techniques/cdi",
@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "X-Ray Imaging",
-    "permalink": "/docs/Introduction for everyone/xrayimaging"
+    "title": "What is microscopy?",
+    "permalink": "/docs/Introduction for everyone/intro"
   },
   "next": {
     "title": "Ptychography",

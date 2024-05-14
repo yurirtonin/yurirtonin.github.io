@@ -17,7 +17,7 @@ export default {
   "themeConfig": {
     "announcementBar": {
       "id": "shareme",
-      "content": "If you like this content, would you kindly share it on your social networks? :)",
+      "content": "A friendly reminder: consider sharing if you found this content useful! ;) ",
       "isCloseable": true
     },
     "navbar": {
@@ -45,11 +45,6 @@ export default {
           "label": "Teaching",
           "position": "left",
           "to": "/teaching"
-        },
-        {
-          "label": "Blog",
-          "position": "left",
-          "to": "/blog"
         },
         {
           "label": "About this website",
@@ -86,14 +81,8 @@ export default {
         "csharp"
       ]
     },
-    "googleAnalytics": {
-      "trackingID": "",
-      "anonymizeIP": false
-    },
-    "gtag": {
-      "trackingID": "",
-      "anonymizeIP": false
-    },
+
+
     "sitemap": {
       "cacheTime": 600000,
       "changefreq": "weekly",
@@ -144,7 +133,15 @@ export default {
           "rehypePlugins": [
             null
           ]
-        }
+        },
+        "gtag": {
+          "trackingID": "",
+          "anonymizeIP": false
+        },
+        "googleAnalytics": {
+          "trackingID": "",
+          "anonymizeIP": false
+        },
       }
     ]
   ],

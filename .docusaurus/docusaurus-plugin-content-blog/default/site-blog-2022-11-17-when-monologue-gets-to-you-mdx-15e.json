@@ -5,7 +5,6 @@
   "title": "When a monologue gets to you",
   "description": "description",
   "date": "2022-11-17T00:00:00.000Z",
-  "formattedDate": "November 17, 2022",
   "tags": [
     {
       "label": "andor",
@@ -25,7 +24,7 @@
     }
   ],
   "readingTime": 2.28,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Yuri R. Tonin",
@@ -34,8 +33,25 @@
       "imageURL": "/img/me.jpg"
     }
   ],
+  "frontMatter": {
+    "title": "When a monologue gets to you",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "andor",
+      "star wars",
+      "monologue",
+      "skaasgård"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "unlisted": false,
   "nextItem": {
-    "title": "Welcome!",
-    "permalink": "/blog/2022/09/26/introduction"
+    "title": "Science communicators of world, unite!",
+    "permalink": "/blog/2024-02-we_need_science_communicators"
   }
 }

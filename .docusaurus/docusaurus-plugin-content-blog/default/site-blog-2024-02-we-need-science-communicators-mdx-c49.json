@@ -1,0 +1,46 @@
+{
+  "permalink": "/blog/2024-02-we_need_science_communicators",
+  "editUrl": "https://github.com/yurirtonin/yurirtonin.github.io/tree/master/blog/2024-02-we_need_science_communicators.mdx",
+  "source": "@site/blog/2024-02-we_need_science_communicators.mdx",
+  "title": "Science communicators of world, unite!",
+  "description": "description",
+  "date": "2022-10-01T02:40:52.000Z",
+  "tags": [
+    {
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
+    }
+  ],
+  "readingTime": 0.11,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Science communicators of world, unite!",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "welcome"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "When a monologue gets to you",
+    "permalink": "/blog/2022/11/17/when_monologue_gets_to_you"
+  },
+  "nextItem": {
+    "title": "Welcome!",
+    "permalink": "/blog/2022/09/26/introduction"
+  }
+}

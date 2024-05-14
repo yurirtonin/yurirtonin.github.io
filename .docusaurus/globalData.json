@@ -15,9 +15,28 @@
               "path": "/docs/Introduction for everyone/intro",
               "sidebar": "tutorialSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/Introduction for everyone/intro",
+                "label": "Introduction for everyone/intro"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "xxx"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
     }
   }
 }

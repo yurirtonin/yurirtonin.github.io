@@ -1,142 +1,287 @@
 {
-  "/404-728": {
-    "component": "6bb41b40",
+  "/404-5c5": {
+    "__comp": "6bb41b40",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "config": "5e9f5e1a"
   },
-  "/aboutwebsite-a8b": {
-    "component": "1f391b9e",
+  "/aboutwebsite-df1": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "content": "9d5ac290"
   },
-  "/blog-978": {
-    "component": "a6aa9e1f",
+  "/blog-b8e": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "3ff40342"
       },
       {
+        "content": "c6abe8a4"
+      },
+      {
         "content": "c59709d0"
       }
     ],
-    "metadata": "b2b675dd"
+    "__props": "53a3e6dc"
   },
-  "/blog/2022/09/26/introduction-3c6": {
-    "component": "ccc49370",
+  "/blog/2022/09/26/introduction-8cf": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "bb29a2a2"
   },
-  "/blog/2022/11/17/when_monologue_gets_to_you-360": {
-    "component": "ccc49370",
+  "/blog/2022/11/17/when_monologue_gets_to_you-298": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "15e33318"
   },
-  "/blog/archive-f4c": {
-    "component": "9e4087bc",
-    "archive": "b2f554cd"
-  },
-  "/blog/tags-e13": {
-    "component": "01a85c17",
+  "/blog/2024-02-we_need_science_communicators-28d": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "content": "c494a1f4"
   },
-  "/blog/tags/andor-135": {
-    "component": "6875c492",
+  "/blog/archive-245": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "25003e4f"
+  },
+  "/blog/tags-4c4": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "3ff40342"
-      }
-    ],
-    "metadata": "1554ee31"
+    "__props": "41756ce8"
   },
-  "/blog/tags/monologue-79c": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "3ff40342"
-      }
-    ],
-    "metadata": "274d00a7"
-  },
-  "/blog/tags/skaasgard-230": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "3ff40342"
-      }
-    ],
-    "metadata": "60f1ddb3"
-  },
-  "/blog/tags/star-wars-04e": {
-    "component": "6875c492",
+  "/blog/tags/andor-232": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "3ff40342"
       }
     ],
-    "metadata": "938244fe"
+    "__props": "10d88fac"
   },
-  "/blog/tags/welcome-418": {
-    "component": "6875c492",
+  "/blog/tags/monologue-b21": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "__props": "6fe2ba7c"
+  },
+  "/blog/tags/skaasgard-849": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "__props": "3f46ecf6"
+  },
+  "/blog/tags/star-wars-b58": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3ff40342"
+      }
+    ],
+    "__props": "dc580f26"
+  },
+  "/blog/tags/welcome-be4": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c6abe8a4"
+      },
       {
         "content": "c59709d0"
       }
     ],
-    "metadata": "f6ba3702"
+    "__props": "850c9896"
   },
-  "/curriculum-154": {
-    "component": "1f391b9e",
+  "/curriculum-d82": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "content": "1ad2c686"
   },
-  "/teaching-2a5": {
-    "component": "a6aa9e1f",
+  "/teaching-03f": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
     "sidebar": "a1658fd6",
     "items": [
+      {
+        "content": "ad71771b"
+      },
       {
         "content": "0db8520b"
       }
     ],
-    "metadata": "ea36e763"
+    "__props": "1a41ff1d"
   },
-  "/teaching/2022/09/26/introduction-b9d": {
-    "component": "ccc49370",
+  "/teaching/2022/09/26/introduction-ab2": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "484a3147"
+      },
+      "plugin": "20ee8c15"
+    },
     "sidebar": "a1658fd6",
     "content": "6b344c28"
   },
-  "/teaching/archive-435": {
-    "component": "9e4087bc",
-    "archive": "d25c3fbc"
-  },
-  "/teaching/tags-5d6": {
-    "component": "01a85c17",
+  "/teaching/2024/05/09/propagators-7d5": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "484a3147"
+      },
+      "plugin": "20ee8c15"
+    },
     "sidebar": "a1658fd6",
-    "tags": "5edcbe56"
+    "content": "8c1335c3"
   },
-  "/teaching/tags/welcome-507": {
-    "component": "6875c492",
+  "/teaching/archive-710": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "__props": "96b1e8c6"
+  },
+  "/teaching/tags-fea": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "sidebar": "a1658fd6",
+    "__props": "e709b742"
+  },
+  "/teaching/tags/fresnel-72c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "sidebar": "a1658fd6",
+    "items": [
+      {
+        "content": "ad71771b"
+      }
+    ],
+    "__props": "98ed41b1"
+  },
+  "/teaching/tags/nearfield-430": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "sidebar": "a1658fd6",
+    "items": [
+      {
+        "content": "ad71771b"
+      }
+    ],
+    "__props": "ef1a8d9b"
+  },
+  "/teaching/tags/propagation-efa": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "sidebar": "a1658fd6",
+    "items": [
+      {
+        "content": "ad71771b"
+      }
+    ],
+    "__props": "0cb1d07d"
+  },
+  "/teaching/tags/welcome-4b0": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
     "sidebar": "a1658fd6",
     "items": [
       {
         "content": "0db8520b"
       }
     ],
-    "metadata": "b5fd8365"
+    "__props": "3d627d79"
   },
-  "/docs-62d": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/docs-4f5": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
   },
-  "/docs/Introduction for everyone/intro-41f": {
-    "component": "17896441",
+  "/docs-c17": {
+    "__comp": "a7bd4aaa",
+    "__props": "7c110bd0"
+  },
+  "/docs-456": {
+    "__comp": "a94703ab"
+  },
+  "/docs/Introduction for everyone/intro-aff": {
+    "__comp": "17896441",
     "content": "bf9523ae"
   },
-  "/-deb": {
-    "component": "c4f5d8e4",
+  "/-2e1": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "config": "5e9f5e1a"
   }
 }

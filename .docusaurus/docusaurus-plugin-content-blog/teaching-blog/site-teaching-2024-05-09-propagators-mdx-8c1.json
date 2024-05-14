@@ -1,0 +1,51 @@
+{
+  "permalink": "/teaching/2024/05/09/propagators",
+  "source": "@site/teaching/2024-05-09-propagators.mdx",
+  "title": "Wavefront Propagation",
+  "description": "description",
+  "date": "2024-05-09T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "propagation",
+      "permalink": "/teaching/tags/propagation"
+    },
+    {
+      "label": "nearfield",
+      "permalink": "/teaching/tags/nearfield"
+    },
+    {
+      "label": "fresnel",
+      "permalink": "/teaching/tags/fresnel"
+    }
+  ],
+  "readingTime": 3.64,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Wavefront Propagation",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "propagation",
+      "nearfield",
+      "fresnel"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome to my teaching space!",
+    "permalink": "/teaching/2022/09/26/introduction"
+  }
+}

@@ -1,4 +1,25 @@
 {
+  "/teaching/tags/propagation": {
+    "allTagsPath": "/teaching/tags",
+    "slug": "/teaching/tags/propagation",
+    "name": "propagation",
+    "count": 1,
+    "permalink": "/teaching/tags/propagation"
+  },
+  "/teaching/tags/nearfield": {
+    "allTagsPath": "/teaching/tags",
+    "slug": "/teaching/tags/nearfield",
+    "name": "nearfield",
+    "count": 1,
+    "permalink": "/teaching/tags/nearfield"
+  },
+  "/teaching/tags/fresnel": {
+    "allTagsPath": "/teaching/tags",
+    "slug": "/teaching/tags/fresnel",
+    "name": "fresnel",
+    "count": 1,
+    "permalink": "/teaching/tags/fresnel"
+  },
   "/teaching/tags/welcome": {
     "allTagsPath": "/teaching/tags",
     "slug": "/teaching/tags/welcome",

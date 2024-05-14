@@ -4,7 +4,6 @@
   "title": "Welcome to my teaching space!",
   "description": "description",
   "date": "2022-09-26T00:00:00.000Z",
-  "formattedDate": "September 26, 2022",
   "tags": [
     {
       "label": "welcome",
@@ -12,7 +11,7 @@
     }
   ],
   "readingTime": 0.3,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Yuri R. Tonin",
@@ -20,5 +19,23 @@
       "url": "https://github.com/yurirt94",
       "imageURL": "/img/me.jpg"
     }
-  ]
+  ],
+  "frontMatter": {
+    "title": "Welcome to my teaching space!",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "welcome"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Wavefront Propagation",
+    "permalink": "/teaching/2024/05/09/propagators"
+  }
 }
