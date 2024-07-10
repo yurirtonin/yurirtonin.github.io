@@ -6,6 +6,7 @@
   "date": "2022-09-26T00:00:00.000Z",
   "tags": [
     {
+      "inline": true,
       "label": "welcome",
       "permalink": "/teaching/tags/welcome"
     }
@@ -35,7 +36,7 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Wavefront Propagation",
+    "title": "Waves and Propagation",
     "permalink": "/teaching/2024/05/09/propagators"
   }
 }

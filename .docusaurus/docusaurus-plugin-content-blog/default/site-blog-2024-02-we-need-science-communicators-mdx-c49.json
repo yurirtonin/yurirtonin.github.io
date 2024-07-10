@@ -7,6 +7,7 @@
   "date": "2022-10-01T02:40:52.000Z",
   "tags": [
     {
+      "inline": true,
       "label": "welcome",
       "permalink": "/blog/tags/welcome"
     }

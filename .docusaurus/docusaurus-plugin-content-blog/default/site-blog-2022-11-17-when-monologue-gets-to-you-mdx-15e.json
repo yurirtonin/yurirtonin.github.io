@@ -7,18 +7,22 @@
   "date": "2022-11-17T00:00:00.000Z",
   "tags": [
     {
+      "inline": true,
       "label": "andor",
       "permalink": "/blog/tags/andor"
     },
     {
+      "inline": true,
       "label": "star wars",
       "permalink": "/blog/tags/star-wars"
     },
     {
+      "inline": true,
       "label": "monologue",
       "permalink": "/blog/tags/monologue"
     },
     {
+      "inline": true,
       "label": "skaasgård",
       "permalink": "/blog/tags/skaasgard"
     }

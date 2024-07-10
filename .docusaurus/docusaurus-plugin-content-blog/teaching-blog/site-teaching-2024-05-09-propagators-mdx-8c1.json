@@ -1,24 +1,32 @@
 {
   "permalink": "/teaching/2024/05/09/propagators",
   "source": "@site/teaching/2024-05-09-propagators.mdx",
-  "title": "Wavefront Propagation",
+  "title": "Waves and Propagation",
   "description": "description",
   "date": "2024-05-09T00:00:00.000Z",
   "tags": [
     {
+      "inline": true,
+      "label": "waves",
+      "permalink": "/teaching/tags/waves"
+    },
+    {
+      "inline": true,
       "label": "propagation",
       "permalink": "/teaching/tags/propagation"
     },
     {
+      "inline": true,
       "label": "nearfield",
       "permalink": "/teaching/tags/nearfield"
     },
     {
+      "inline": true,
       "label": "fresnel",
       "permalink": "/teaching/tags/fresnel"
     }
   ],
-  "readingTime": 3.64,
+  "readingTime": 12.005,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -29,12 +37,13 @@
     }
   ],
   "frontMatter": {
-    "title": "Wavefront Propagation",
+    "title": "Waves and Propagation",
     "author": "Yuri R. Tonin",
     "author_title": "Physics Engineer",
     "author_url": "https://github.com/yurirt94",
     "author_image_url": "/img/me.jpg",
     "tags": [
+      "waves",
       "propagation",
       "nearfield",
       "fresnel"

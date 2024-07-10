@@ -13,7 +13,7 @@
     },
     "content": "9d5ac290"
   },
-  "/blog-b8e": {
+  "/blog-b8f": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -30,7 +30,7 @@
         "content": "c59709d0"
       }
     ],
-    "__props": "53a3e6dc"
+    "__props": "c15d9823"
   },
   "/blog/2022/09/26/introduction-8cf": {
     "__comp": "ccc49370",
@@ -65,22 +65,22 @@
     "sidebar": "814f3328",
     "content": "c494a1f4"
   },
-  "/blog/archive-245": {
+  "/blog/archive-182": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "25003e4f"
+    "__props": "f81c1134"
   },
-  "/blog/tags-4c4": {
+  "/blog/tags-287": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "41756ce8"
+    "__props": "3a2db09e"
   },
-  "/blog/tags/andor-232": {
+  "/blog/tags/andor-9bc": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -91,9 +91,9 @@
         "content": "3ff40342"
       }
     ],
-    "__props": "10d88fac"
+    "__props": "24bbbb54"
   },
-  "/blog/tags/monologue-b21": {
+  "/blog/tags/monologue-98f": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -104,9 +104,9 @@
         "content": "3ff40342"
       }
     ],
-    "__props": "6fe2ba7c"
+    "__props": "d8fcd63f"
   },
-  "/blog/tags/skaasgard-849": {
+  "/blog/tags/skaasgard-465": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -117,9 +117,9 @@
         "content": "3ff40342"
       }
     ],
-    "__props": "3f46ecf6"
+    "__props": "2a08e214"
   },
-  "/blog/tags/star-wars-b58": {
+  "/blog/tags/star-wars-2e3": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -130,9 +130,9 @@
         "content": "3ff40342"
       }
     ],
-    "__props": "dc580f26"
+    "__props": "8d649121"
   },
-  "/blog/tags/welcome-be4": {
+  "/blog/tags/welcome-e32": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -146,7 +146,7 @@
         "content": "c59709d0"
       }
     ],
-    "__props": "850c9896"
+    "__props": "436029cc"
   },
   "/curriculum-d82": {
     "__comp": "1f391b9e",
@@ -155,7 +155,7 @@
     },
     "content": "1ad2c686"
   },
-  "/teaching-03f": {
+  "/teaching-962": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "20ee8c15"
@@ -169,7 +169,7 @@
         "content": "0db8520b"
       }
     ],
-    "__props": "1a41ff1d"
+    "__props": "0baadb61"
   },
   "/teaching/2022/09/26/introduction-ab2": {
     "__comp": "ccc49370",
@@ -193,22 +193,22 @@
     "sidebar": "a1658fd6",
     "content": "8c1335c3"
   },
-  "/teaching/archive-710": {
+  "/teaching/archive-8df": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "20ee8c15"
     },
-    "__props": "96b1e8c6"
+    "__props": "419e3cc9"
   },
-  "/teaching/tags-fea": {
+  "/teaching/tags-2d4": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "20ee8c15"
     },
     "sidebar": "a1658fd6",
-    "__props": "e709b742"
+    "__props": "d18e8bdd"
   },
-  "/teaching/tags/fresnel-72c": {
+  "/teaching/tags/fresnel-f3b": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -219,9 +219,9 @@
         "content": "ad71771b"
       }
     ],
-    "__props": "98ed41b1"
+    "__props": "32726168"
   },
-  "/teaching/tags/nearfield-430": {
+  "/teaching/tags/nearfield-7fa": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -232,9 +232,9 @@
         "content": "ad71771b"
       }
     ],
-    "__props": "ef1a8d9b"
+    "__props": "cfc29f96"
   },
-  "/teaching/tags/propagation-efa": {
+  "/teaching/tags/propagation-aed": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -245,9 +245,22 @@
         "content": "ad71771b"
       }
     ],
-    "__props": "0cb1d07d"
+    "__props": "df3438a7"
   },
-  "/teaching/tags/welcome-4b0": {
+  "/teaching/tags/waves-03c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "20ee8c15"
+    },
+    "sidebar": "a1658fd6",
+    "items": [
+      {
+        "content": "ad71771b"
+      }
+    ],
+    "__props": "0345c7d5"
+  },
+  "/teaching/tags/welcome-7a2": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -258,17 +271,17 @@
         "content": "0db8520b"
       }
     ],
-    "__props": "3d627d79"
+    "__props": "232b6e08"
   },
-  "/docs-4f5": {
+  "/docs-a11": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-c17": {
+  "/docs-7c3": {
     "__comp": "a7bd4aaa",
-    "__props": "7c110bd0"
+    "__props": "0058b4c6"
   },
   "/docs-456": {
     "__comp": "a94703ab"

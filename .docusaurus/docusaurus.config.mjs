@@ -318,6 +318,13 @@ export default {
     "path": "i18n"
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenLinks": "throw",
   "onBrokenAnchors": "warn",
   "onBrokenMarkdownLinks": "warn",

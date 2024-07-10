@@ -14,7 +14,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b8e'),
+    component: ComponentCreator('/blog', 'b8f'),
     exact: true
   },
   {
@@ -34,37 +34,37 @@ export default [
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '245'),
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '4c4'),
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
     path: '/blog/tags/andor',
-    component: ComponentCreator('/blog/tags/andor', '232'),
+    component: ComponentCreator('/blog/tags/andor', '9bc'),
     exact: true
   },
   {
     path: '/blog/tags/monologue',
-    component: ComponentCreator('/blog/tags/monologue', 'b21'),
+    component: ComponentCreator('/blog/tags/monologue', '98f'),
     exact: true
   },
   {
     path: '/blog/tags/skaasgard',
-    component: ComponentCreator('/blog/tags/skaasgard', '849'),
+    component: ComponentCreator('/blog/tags/skaasgard', '465'),
     exact: true
   },
   {
     path: '/blog/tags/star-wars',
-    component: ComponentCreator('/blog/tags/star-wars', 'b58'),
+    component: ComponentCreator('/blog/tags/star-wars', '2e3'),
     exact: true
   },
   {
     path: '/blog/tags/welcome',
-    component: ComponentCreator('/blog/tags/welcome', 'be4'),
+    component: ComponentCreator('/blog/tags/welcome', 'e32'),
     exact: true
   },
   {
@@ -74,7 +74,7 @@ export default [
   },
   {
     path: '/teaching',
-    component: ComponentCreator('/teaching', '03f'),
+    component: ComponentCreator('/teaching', '962'),
     exact: true
   },
   {
@@ -89,41 +89,46 @@ export default [
   },
   {
     path: '/teaching/archive',
-    component: ComponentCreator('/teaching/archive', '710'),
+    component: ComponentCreator('/teaching/archive', '8df'),
     exact: true
   },
   {
     path: '/teaching/tags',
-    component: ComponentCreator('/teaching/tags', 'fea'),
+    component: ComponentCreator('/teaching/tags', '2d4'),
     exact: true
   },
   {
     path: '/teaching/tags/fresnel',
-    component: ComponentCreator('/teaching/tags/fresnel', '72c'),
+    component: ComponentCreator('/teaching/tags/fresnel', 'f3b'),
     exact: true
   },
   {
     path: '/teaching/tags/nearfield',
-    component: ComponentCreator('/teaching/tags/nearfield', '430'),
+    component: ComponentCreator('/teaching/tags/nearfield', '7fa'),
     exact: true
   },
   {
     path: '/teaching/tags/propagation',
-    component: ComponentCreator('/teaching/tags/propagation', 'efa'),
+    component: ComponentCreator('/teaching/tags/propagation', 'aed'),
+    exact: true
+  },
+  {
+    path: '/teaching/tags/waves',
+    component: ComponentCreator('/teaching/tags/waves', '03c'),
     exact: true
   },
   {
     path: '/teaching/tags/welcome',
-    component: ComponentCreator('/teaching/tags/welcome', '4b0'),
+    component: ComponentCreator('/teaching/tags/welcome', '7a2'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '4f5'),
+    component: ComponentCreator('/docs', 'a11'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c17'),
+        component: ComponentCreator('/docs', '7c3'),
         routes: [
           {
             path: '/docs',
