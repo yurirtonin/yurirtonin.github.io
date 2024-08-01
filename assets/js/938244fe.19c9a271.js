@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[236],{644:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/star-wars","name":"star wars","count":1,"permalink":"/blog/tags/star-wars"}')}}]);
