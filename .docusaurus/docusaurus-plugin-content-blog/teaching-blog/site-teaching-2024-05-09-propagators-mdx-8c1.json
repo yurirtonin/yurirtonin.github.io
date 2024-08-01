@@ -1,7 +1,7 @@
 {
   "permalink": "/teaching/2024/05/09/propagators",
   "source": "@site/teaching/2024-05-09-propagators.mdx",
-  "title": "Waves and Propagation",
+  "title": "Near-field Propagation",
   "description": "description",
   "date": "2024-05-09T00:00:00.000Z",
   "tags": [
@@ -26,7 +26,7 @@
       "permalink": "/teaching/tags/fresnel"
     }
   ],
-  "readingTime": 12.005,
+  "readingTime": 13.43,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -37,7 +37,7 @@
     }
   ],
   "frontMatter": {
-    "title": "Waves and Propagation",
+    "title": "Near-field Propagation",
     "author": "Yuri R. Tonin",
     "author_title": "Physics Engineer",
     "author_url": "https://github.com/yurirt94",

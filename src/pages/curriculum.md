@@ -19,7 +19,7 @@ Computational science and engineering. Software development for image processing
 
 ### Optical Engineer - Brazilian Synchrotron Light National Laboratory
 
-_ Optics Group | May 2019 - Sep 2021 | Campinas, SP, Brazil_
+_Optics Group | May 2019 - Sep 2021 | Campinas, SP, Brazil_
 
 Software development in Python for processing data on the surface quality of optical components, handling and mounting sensitive optics, control and automation of experimental setups in Labview and EPICS, CAD drawing of setups, technical documentation, maintenance of clean-room environment.
 
@@ -35,20 +35,20 @@ Project engineer related activities, such as hardware testing, technical documen
 
 ### Masters in Applied Physics - Universidade Estadual de Campinas (UNICAMP)
 
-**GPA: 4.0/4.0** _ | Mar 2021 - Jul 2022 | Campinas, Brazil _  
+**GPA: 4.0/4.0** _| Mar 2021 - Jul 2022 | Campinas, Brazil_  
 
 Coherent X-Ray Diffraction Imaging: Image reconstruction via a matrix model of the inhomogenous Helmholtz equation
 [Dissertation in English (PDF)](../../static/documents/MastersDissertation_YuriRossiTonin.pdf) 
 
 ### Study abroad program in Physics - University of North Carolina at Chapel Hill (UNC)
 
-**GPA: 3.796/4.00** _ | Aug 2015 - May 2016 | Chapel Hill, NC, USA _   
+**GPA: 3.796/4.00** _| Aug 2015 - May 2016 | Chapel Hill, NC, USA_   
 
 Honors: Dean’s list Fall 2015 and Spring 2016 
 
 ### Bachelor’s in Engineering Physics - Universidade Federal de São Carlos (UFSCar)
 
-**GPA: 8.25/10.0** _ | Mar 2012 - Dec 2018 | São Carlos, SP, Brazil _   
+**GPA: 8.25/10.0** _| Mar 2012 - Dec 2018 | São Carlos, SP, Brazil_   
 
 ### Notable Undergraduate Projects
 
@@ -83,6 +83,10 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 
 ## Publications
 
+- [Schwartz Symmetry Condition for Coherent Diffraction Imaging Patterns](https://doi.org/10.3390/sym16040399)
+
+    Published in Symmetry 16(4), 399, 2024.
+
 - [Ptychographic X-ray computed tomography of porous membranes with nanoscale resolution](https://doi.org/10.1038/s43246-023-00396-x)
 
     Published in Nature Communications Material 4, 68, 2023.
@@ -94,7 +98,6 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 - [Exactly-constrained KB Mirrors for Sirius/LNLS Beamlines: Design and Commissioning of the TARUMÃ Station Nanofocusing Optics at CARNAÚBA Beamline](https://doi.org/10.18429/JACoW-MEDSI2020-TUOB01)
 
     Published in Mechanical Engineering Design of Synchrotron Radiation Equipment and Instrumentation (MEDSI2020), JACoW Publishing, 2021.
-
 
 - [Surface metrology of cylindrical mirrors with sagittal curvature in low spatial frequency range](https://doi.org/10.1117/12.2568868)
 

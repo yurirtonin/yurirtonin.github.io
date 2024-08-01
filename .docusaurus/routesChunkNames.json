@@ -13,7 +13,7 @@
     },
     "content": "9d5ac290"
   },
-  "/blog-b8f": {
+  "/blog-234": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -22,9 +22,6 @@
     "items": [
       {
         "content": "3ff40342"
-      },
-      {
-        "content": "c6abe8a4"
       },
       {
         "content": "c59709d0"
@@ -53,17 +50,6 @@
     },
     "sidebar": "814f3328",
     "content": "15e33318"
-  },
-  "/blog/2024-02-we_need_science_communicators-28d": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "c494a1f4"
   },
   "/blog/archive-182": {
     "__comp": "9e4087bc",
@@ -132,16 +118,13 @@
     ],
     "__props": "8d649121"
   },
-  "/blog/tags/welcome-e32": {
+  "/blog/tags/welcome-e39": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
-      {
-        "content": "c6abe8a4"
-      },
       {
         "content": "c59709d0"
       }

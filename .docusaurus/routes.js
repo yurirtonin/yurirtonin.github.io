@@ -14,7 +14,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b8f'),
+    component: ComponentCreator('/blog', '234'),
     exact: true
   },
   {
@@ -25,11 +25,6 @@ export default [
   {
     path: '/blog/2022/11/17/when_monologue_gets_to_you',
     component: ComponentCreator('/blog/2022/11/17/when_monologue_gets_to_you', '298'),
-    exact: true
-  },
-  {
-    path: '/blog/2024-02-we_need_science_communicators',
-    component: ComponentCreator('/blog/2024-02-we_need_science_communicators', '28d'),
     exact: true
   },
   {
@@ -64,7 +59,7 @@ export default [
   },
   {
     path: '/blog/tags/welcome',
-    component: ComponentCreator('/blog/tags/welcome', 'e32'),
+    component: ComponentCreator('/blog/tags/welcome', 'e39'),
     exact: true
   },
   {
