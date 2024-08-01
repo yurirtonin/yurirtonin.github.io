@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[326],{307:function(e){e.exports=JSON.parse('{"allTagsPath":"/teaching/tags","slug":"/teaching/tags/welcome","name":"welcome","count":1,"permalink":"/teaching/tags/welcome"}')}}]);
