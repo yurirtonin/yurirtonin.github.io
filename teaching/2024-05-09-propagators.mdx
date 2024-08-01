@@ -1,5 +1,5 @@
 ---
-title: Waves and Propagation
+title: Near-field Propagation
 author: Yuri R. Tonin
 author_title: Physics Engineer
 author_url: https://github.com/yurirt94
@@ -37,7 +37,7 @@ $$
 $$
 The names indicate that the wavefronts (i.e. the surfaces of constant phase) are either planes or spheres. The term before the exponential is referred to as the *amplitude* of the wave, whereas the imaginary argument of the exponent is named the *phase*. For a spherical wave, the amplitude is modulated by the distance from the source due to the $1/r$ term.  
 
-The figure below illustrates the propagation of a spherical wave. Near the source, the wavefronts are spherical but can be approximated by paraboloids as it propagates from the origin. For large distances, one may approximate them by planes waves.
+The figure below illustrates the propagation of a spherical wave. As we will understand ahead, near the source, the wavefronts are spherical. At small angles with the propagation axis, it can eventually be approximated by paraboloids. For large distances, one may approximate them by planes waves.
 
 <a >
     <Figure 
@@ -93,15 +93,10 @@ $$
 \psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) e^{ \frac{i k}{2 z}\left[{(x_2-x_1)^2+(y_2-y_1)^2} \right]} dx_1 dy_1
 $$
 
-In this case, 
-
-#TODO: paraboloids of revolution?
-
+In this case, we have a plane wave component from the $e^{ikz}$ term which gets modulated by the phase term inside the integral. Note that $(x^2+y^2)/z = \text{const}$ is the equation of the paraboloid of revolution. Hence, the plane waves get "distorted" into paraboloids. For large distances $z$, this phase term become negligible. Also, the variation of the amplitude with the term $1/z$ becomes less relevant, which justifies the approximation of a spherical wave by a plane wave.
 
 
  - Gaussian beam: 
-
-#TODO: revise gaussian beam equations
 
  The Gaussian beam is a more complex, but extremely useful solution which appears in lasers, optical communication and many optical instruments. It is described by:
 
@@ -109,7 +104,13 @@ $$
 \psi(x, y, z) = \psi_0 \frac{w_0}{w(z)} \exp\left(-\frac{x^2 + y^2}{w(z)^2}\right) \exp\left(-ikz - ik\frac{x^2 + y^2}{2R(z)} + i\zeta(z)\right)
 $$
 
-The $xy$ dependence of the wavefunction is Gaussian, given the waves its name. We can see the transversal slice at $z=0$ in the figure below, which shows exactly such Gaussian distribution. 
+If we calculate the intensity $I=|\psi(x,y,z)|^2$, we get
+
+$$
+I(x,y,z) = |\psi_0|^2 \frac{w_0^2}{w(z)^2} \exp\left(-2\frac{x^2 + y^2}{w(z)^2}\right)
+$$
+
+The $xy$ dependence of the intensity is Gaussian, which explains the name. We can see the transversal slice $I(x,y)$ at $z=0$ in the figure below, which shows exactly such Gaussian distribution. 
 
 <a >
     <Figure 
@@ -122,7 +123,6 @@ The $xy$ dependence of the wavefunction is Gaussian, given the waves its name. W
     <figcaption align = "center"><b> Transversal and longitudional cuts to a Gaussian beam</b></figcaption>
   <br/>
 </a>
-
 
 As the equation shows, there are a few parameters to model the bahavior of a Gaussian beam. First, it is useful to define the Rayleigh length $z_R$
 
@@ -149,10 +149,6 @@ $$
 \zeta(z) = \arctan\left(\frac{z}{z_R}\right)
 $$
 
-
-A few comments on these equation may help us understand the Gaussian beam. First, the transversal size of the beam is indeed minimum at $w(z=0) = w_0$. This size increases in both $\pm z$ directions
-
-
 <a >
     <Figure 
       data={{
@@ -161,16 +157,22 @@ A few comments on these equation may help us understand the Gaussian beam. First
             type: 'image'
       }} 
     />
-    <figcaption align = "center"><b> Gaussian beam parameters in the longitudinal plane.</b></figcaption>
   <br/>
 </a>  
 
+A few comments on these equations to help us better understand the Gaussian beam:
+
+- The transversal size of the beam is indeed minimum at $w(z=0) = w_0$. This size increases in both $\pm z$ directions. The length from $-z_R$ to $z_R$ is defined to be the *depth of focus* $b$ of the beam. 
+
+- The Gouy phase represents a phase delay from $-\pi/2 to \pi/2$. If we combine two of the phase terms, we have $i(kz-\zeta(z) )$. Hence, it can be understood as a phase deviation from the plane wave scenario. 
+
+- The third phase term relates to the radius of curvature, which causes the wavefront to curve. $R(z)$ is infinite at $z=0$, meaning we have a plane wave. The curvature then decreases up to a minimum at $z=z_R$. It then increases again to assimptoticaly reach $R(z)\approx z$ for big $z$. A good enough approximation is to use $R(z>2z_R) = z$.
 
 
 
 ### Using the Fresnel diffraction integral
 
-Let us rewrite the Fresnel diffraction integral (FDI): 
+Let us rewrite the Fresnel diffraction integral: 
 
 $$
 \psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) e^{ \frac{i k}{2 z}\left[{(x_2-x_1)^2+(y_2-y_1)^2} \right]} dx_1 dy_1 \tag{1}
@@ -182,9 +184,9 @@ $$
 \psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \iint_{-\infty}^{+\infty} \psi (x_1,y_1) e^{ \frac{i k}{2 z} \left[{x_1^2+y_1^2} \right] } e^{ \frac{i k}{2 z}{(x_2 x_1+y_2 y_1)} }dx_1 dy_1 \tag{2}
 $$
 
- The two ways of computing it are named the **Convolution** and **Fourier Transform** forms of the Fresnel Diffraction integral. Although mathematically identical, they are numerically different. One must be careful to choose between them depending on the problem at hand.
+ The two approaches are named the **Convolution** and **Fourier Transform** forms of the Fresnel Diffraction integral. Although mathematically identical, they are numerically different. One must be careful to choose between them depending on the problem at hand.
 
-#### Convolution methods
+#### Convolution form
 
 ##### - Impulse Response method
 
@@ -194,31 +196,34 @@ $$
 f \ast g = \int_{-\infty}^{+\infty} f(t) g(t-\tau) d\tau
 $$
 
-Equation (1) is nothing more than a convolution of $\psi$ with the following impulse responde function $h$
+Equation (1) is nothing more than a convolution of $\psi$ with the following impulse response function $h(x,y)$:
 
 $$
     h(x,y) =  \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x^2+y^2} \right]} \tag{3}
 $$
+Hence
 
-Making use of the [convolution theorem](https://en.wikipedia.org/wiki/Convolution_theorem), it can be calculated in Fourier space as 
+$$
+\psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) h(x_2-x_1,y_2-y_1) dx_1 dy_1
+$$
 
 ##### - Transfer function method
+
+Making use of the [convolution theorem](https://en.wikipedia.org/wiki/Convolution_theorem), it can be calculated in Fourier space as 
 
 $$
   \psi(x_2,y_2) = \mathcal{F}^{-1}\{ \mathcal{F}\{ \psi(x_1,y_1) \} H(f_{x_1},f_{y_1}) \} \tag{4}
 $$
 where
 $$
-    H(f_{x1},f_{y1}) = \mathcal{F}\{h(x_1,y_1)\} = e^{jkz} e^{j \pi \lambda z (f_{x}^2+f_{y}^2)} \tag{5}
+  H(f_{x1},f_{y1}) = \mathcal{F}\{h(x_1,y_1)\} = e^{jkz} e^{j \pi \lambda z (f_{x}^2+f_{y}^2)} \tag{5}
 $$
 
-Note that computing equation (4), one should preferably pre-compute $H(f_{x_1},f_{y_1})$ in order to spare one calculation of the Fourier Transform. In this case, two FTs are left for calculation. In this case, the pixel size
+Note that in computing equation (4), one should pre-computes $H(f_{x_1},f_{y_1})$ and spares one calculation of the Fourier Transform. 
 
 #### Chirp functions
 
-Equations (3) and (5) define what we call a *chirp function*. In each of the above methods, $\psi$ is modulated by a different chirp function. 
-
-For the IR method it is sampled in real space:
+Equations (3) and (5) define what we call a *chirp function*. For the IR method, the chirp function is sampled in real space:
 
 $$
 C_1 = e^{ \frac{i k}{2 z} \left({x_1^2+y_1^2} \right) } 
@@ -227,36 +232,35 @@ whereas for the SFT it is samples in reciprocal space:
 $$
 C_2 = e^{j \pi \lambda z (f_{x}^2+f_{y}^2)}
 $$
-This is the reason why they are numerically different. Correctly evaluation of the Fast Fourier transform requires proper sampling according to the [Nyquist sampling theorem](https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem) in order to avoid aliasing.
 
-Furthermore, the discrete Fourier Transform imposes that 
+This is the reason why they are numerically different. Correctly evaluation of the Fast Fourier transform requires proper sampling of the functions to avoid aliasing, according to the [Nyquist sampling theorem](https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem). Now, the discrete Fourier Transform imposes that 
 
 $$
 \Delta x = \frac{1}{N \Delta f}
 $$
-where $N$ is the number of points in your matrix. In other words, for a given N there is an inverse relationship between the sampling $\Delta x$ in real-space and the sampling $\Delta f$ in reciprocal space. This indicates that, the best one chirp function is sampled, the worst the other one will be. This is as strong indication that one method might be superior to the other depending on the situation. But how to choose?
+where $N$ is the number of points in your matrix. In other words, for a given N there is an inverse relationship between the sampling $\Delta x$ in real-space and the sampling $\Delta f$ in reciprocal space. This indicates that, the best one chirp function is sampled, the worst the other one will be. This is as strong indication that one method might be superior to the other depending on the situation. 
 
-### When to use which?
+### How to choose the best method?
 
-Now, to the practical side: how do you choose which to use? In that case one may use a rule of thumb (although for the details I'd recommend taking a close look at the references below):
+Now, to the practical side of things. For selecting the best method for your application, one may use a rule of thumb in the table below (although for details I recommend taking a closer look at the references!). $L$ represents the size of the array and $D$ is width of the source field inside of it ($D<L$).  
 
 | Criteria&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Sampling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Comment |
 | -------------------------------- | -------------------------------- | ------  |
-| $\Delta x > \frac{\lambda z}{z}$ | TF: oversampled.&nbsp;&nbsp;&nbsp;&nbsp; IR: undersampled | IR method causes periodic copies. TF is the method of choice. Observation plane width will be limited to width $D + \lambda z / \Delta x$|
-| $\Delta x = \frac{\lambda z}{z}$ | both TF and IR: critical sampling | TF and IR are identical |
-| $\Delta x < \frac{\lambda z}{z}$ | TF: undersampled. IR: oversampled | It depends. Needs to evaluate if source bandwidth satisfies $B \le \frac{z}{2 \lambda z}$. If yes, use TF. Otherwise, IR may be better. |
+| $\Delta x > \frac{\lambda z}{L}$ | TF: oversampled.&nbsp;&nbsp;&nbsp;&nbsp; IR: undersampled | IR method causes periodic copies. TF is the method of choice. Observation plane width will be limited to width $D + \lambda z / \Delta x$|
+| $\Delta x = \frac{\lambda z}{L}$ | both TF and IR: critical sampling | TF and IR are identical |
+| $\Delta x < \frac{\lambda z}{L}$ | TF: undersampled. IR: oversampled | It depends. Needs to evaluate if source bandwidth satisfies $B \le \frac{L}{2 \lambda z}$. If yes, use TF. Otherwise, IR may be better. |
 
 
-#### Fourier Transform methods
+#### Fourier Transform form
 
 ##### - Single Fourier Transform
 
-Equation (2) on the other hand can be seen as a Fourier Transform:
+Equation (2), on the other hand, can be seen as a Fourier Transform:
 
 $$
     \psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \mathcal{F}\{ \psi(x_1,y_1) e^{ \frac{i k}{2 z} \left[{x_1^2+y_1^2} \right] } \}
 $$
-Notice still, that it can be rewritten using $h(x,y)$, such that
+Notice that it can also be rewritten using $h(x,y)$, such that
 $$
     \psi(x_2,y_2) =  e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \mathcal{F}\{ \psi(x_1,y_1) h(x_1,y_1) \} \} \tag{6}
 $$
@@ -264,11 +268,14 @@ In contrast to equation (4), the above expression requires a single Fourier Tran
 
 ##### Grid spacing
 
-We are interested here in computing propagation on a computer, using discrete matrices. An important difference between the SFT method and the convolution methods is that the latter always involve an inverse Fourier transform at the end, whereas the first does not. This has consequences on the final grid spacing of the resulting matrix. 
+In practice, we will compute the propagation on, well, a computer. In other words, we shall use discrete matrices. An important difference between the **Single Fourier Trasform** and **Convolution** methods is that the latter always involve an inverse Fourier transform, whereas the first does not. This has consequences on the final grid spacing of the resulting matrix. 
+
+If you perform an inverse Fourier transform at the end, the pixel sizes $p_1$ in the input and $p_2$ in the output fields will be the same. No problem there. However, if only forward Fourier transform is applied, the pixel sizes relate according to:
 
 $$
 p_2 = \frac{\lambda z}{N p_1}
 $$
+
 
 ##### - Fresnel propagator in 2 steps
 
@@ -279,47 +286,36 @@ p_2 = m p_1
 $$
 It turns out that this scaling paremeter relates to the positions in the $z$ axis as
 $$
-m = |\frac{z_2 - z_i}{z_i - z_1}| = |\frac{\Delta z_2}{\Delta z_1}|
+m = \left\lvert\frac{z_2 - z_i}{z_i - z_1} \right\rvert =  \left\lvert\frac{\Delta z_2}{\Delta z_1} \right\rvert
 $$
 
 In that case, the wavefront $\psi$ is obtained via
 
 $$
 \begin{align*}
-\psi(x_2,y_2,z_2)  & = \frac{z_2}{z_1} e^{j 2 \pi z/\lambda} \exp{\left[ -j \frac{\pi}{\lambda z} \frac{z_1-z_2}{z_2} (x_2^2+y_2^2)  \right]} 
-\\ & \mathcal{F}^{-1}\{\exp{[-j\pi \lambda z \frac{z_1}{z_2}(f_{x1}^2+f_{y_1}^2)]}  \mathcal{F}\{ \psi_1(x_1,y_1,z_1) \exp{[j \frac{\pi}{\lambda z}\frac{z_1-z_2}{z_1}(x_1^2+y_1^2)]}\} \}
+\psi(x_2,y_2,z_2)  & = \frac{z_2}{z_1} e^{j 2 \pi z/\lambda} \exp{\left( -j \frac{\pi}{\lambda z} \frac{z_1-z_2}{z_2} (x_2^2+y_2^2)  \right)} 
+\\ & \mathcal{F}^{-1}\{\exp{\left( -j\pi \lambda z \frac{z_1}{z_2}(f_{x1}^2+f_{y_1}^2)\right)}  \mathcal{F}\{ \psi_1(x_1,y_1,z_1) \exp{\left( j \frac{\pi}{\lambda z}\frac{z_1-z_2}{z_1}(x_1^2+y_1^2)\right)}\}\}
 \end{align*}
 $$
 
-However, the above expression presents a serious issue. It requires computing both chirp function in real and reciprocal space simultaneously. Therefore, unless working with critical sampling, the expression above will always be partly wrong due to undersampling of one of the two expressions. 
+But caution: the above expression presents an issue. It requires computing both chirp functions in real and reciprocal spaces. Therefore, unless working with critical sampling, the expression above will always be partly wrong due to undersampling of one of the two expressions. 
 
 
 ### Fresnel scaling theorem
 
-One particularly common scenario is that of divergent or cone-beam sources. These are the cases where the beam divergence is quite large for the lengths of interest, such that the expansion of the beam becomes relevant. The Fresnel diffraction integral is of course still valid. Nonetheless, if we are dealing with large propagation distances and a large divergence, a beam with only microns in size may expand hundreds of times in dimension. If you need to compute this numerically in a computer, it may be necessary to work with matrix with dozens of thousands of pixels, making you calculation infeasible due to computer memory limitations.
+A particularly common scenario is that of divergent or **cone-beam** sources. In these cases, the beam divergence is quite large for the lengths of interest, such that the expansion of the beam becomes relevant. 
+
+The Fresnel diffraction integral is, naturally, still valid. Nonetheless, if we are dealing with large propagation distances and a large divergence, a beam with only microns in size may expand hundreds of times in size. Therefore, it may be necessary to work with matrix with dozens of thousands of pixels, making you calculation infeasible due to computer memory limitations.
 
 Fortunately, there exists a clever workaround in this case, called the *Fresnel Scaling Theorem* (FST). Essentially, the FST states that a divergent spherical wave has an equivalent plane-wave equivalent with scaled pixels and distances. 
 
-In the cone-beam case, the focus to sample distance $z_1$ and the sample to output plane distance $z_2$ can be used to define the *magnification $M$* of the system:
+In the cone-beam case, the focus to sample distance $z_1$ and the sample to output plane distance $z_2$ define the *magnification $M$* of the system:
 
 $$
 M = \frac{z_1 + z_2}{z_1}
 $$
 
 This quantity is used then to convert from the cone to the equivalent parallel beam geometry. Note that we recover the parallel case ($M=1$) when $z_1 \rightarrow + \infty$.
-
-<a >
-    <Figure 
-      data={{
-            src: '/img/fst_geometries.jpeg',
-            alt: 'fstgeometries',
-            type: 'image'
-      }} 
-    />
-    <figcaption align = "center"><b> Original geometry (left) and the two types of equivalent geometries (#1, center. #2, right). </b></figcaption>
-  <br/>
-</a>
-
 
 #### Equivalent geometry #1
 
@@ -345,11 +341,25 @@ $$
 D \rightarrow M D
 $$
 
+Which geometry to use will depend on your specific application, whichever make your calculations easier. For a particuarly nice implementation of geometry #2, see reference [6].
+
+<a >
+    <Figure 
+      data={{
+            src: '/img/fst_geometries.jpeg',
+            alt: 'fstgeometries',
+            type: 'image'
+      }} 
+    />
+    <figcaption align = "center"><b> Original (left) and the two equivalent geometries (#1, center. #2, right). </b></figcaption>
+  <br/>
+</a>
+
 #### Validity of the FST
 
 I would like to emphasize here that the Fresnel Scaling theorem assumes a point source, i.e., spherical waves. Therefore, to apply the FST the waves reaching our object in the input plane must be spherical. In many practical situations that may not be the case. 
 
-Referring back to the Gaussian beam equations, the phase is not yet spherical within the Rayleigh length. A minimum distance $2z_0$ from the beam waist is required for application of the FST, since only then the phase wavefront can be approximatted by a spherical wavefront again [7].
+Referring back to the Gaussian beam equations, the phase is not yet spherical within the Rayleigh length. A minimum distance $2z_R$ from the beam waist is required for application of the FST, since only then the phase wavefront can be approximatted by a spherical wavefront again [7].
 
 ### References
 
@@ -361,16 +371,6 @@ Referring back to the Gaussian beam equations, the phase is not yet spherical wi
   - [6] Hu Ziyang, et. al. (2023) “Near-Field Multi-Slice Ptychography: Quantitative Phase Imaging of Optically Thick Samples with Visible Light and X-Rays.”. https://doi.org/10.1364/OE.487002.
   - [7]  Robisch, Anna-Lena. “Phase Retrieval for Object and Probe in the Optical Near-Field.” Universitätsverlag Göttingen, 2016.
 
-
-### Appendix: Raleigh-Sommerfeld Diffraction
-
-$$
-\psi_2(x_2,y_2) = \frac{z}{j \lambda} \iint_S \psi_1(x_1,y_1) \frac{\exp{(j k r_{12})}}{r_{12}^2} dx_1 dy_1
-$$
-where
-$$
-r_{12} = \sqrt{z^2 + (x_2 - x_1)^2 + (y_2 - y_1)^2}
-$$
 
 <a >
     <Figure 
