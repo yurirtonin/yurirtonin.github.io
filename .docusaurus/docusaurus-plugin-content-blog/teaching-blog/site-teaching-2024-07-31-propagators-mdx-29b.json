@@ -1,0 +1,60 @@
+{
+  "permalink": "/teaching/2024/07/31/propagators",
+  "source": "@site/teaching/2024-07-31-propagators.mdx",
+  "title": "Near-field Propagation",
+  "description": "description",
+  "date": "2024-07-31T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "waves",
+      "permalink": "/teaching/tags/waves"
+    },
+    {
+      "inline": true,
+      "label": "propagation",
+      "permalink": "/teaching/tags/propagation"
+    },
+    {
+      "inline": true,
+      "label": "nearfield",
+      "permalink": "/teaching/tags/nearfield"
+    },
+    {
+      "inline": true,
+      "label": "fresnel",
+      "permalink": "/teaching/tags/fresnel"
+    }
+  ],
+  "readingTime": 13.255,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Yuri R. Tonin",
+      "title": "Physics Engineer",
+      "url": "https://github.com/yurirt94",
+      "imageURL": "/img/me.jpg"
+    }
+  ],
+  "frontMatter": {
+    "title": "Near-field Propagation",
+    "author": "Yuri R. Tonin",
+    "author_title": "Physics Engineer",
+    "author_url": "https://github.com/yurirt94",
+    "author_image_url": "/img/me.jpg",
+    "tags": [
+      "waves",
+      "propagation",
+      "nearfield",
+      "fresnel"
+    ],
+    "description": "description",
+    "image": "/img/hunte.png",
+    "hide_table_of_contents": false
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome to my teaching space!",
+    "permalink": "/teaching/2022/09/26/introduction"
+  }
+}

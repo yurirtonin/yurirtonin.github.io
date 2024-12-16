@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7266],{5825:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Near-field Propagation","permalink":"/teaching/2024/07/31/propagators","unlisted":false},{"title":"Welcome to my teaching space!","permalink":"/teaching/2022/09/26/introduction","unlisted":false}]}')}}]);

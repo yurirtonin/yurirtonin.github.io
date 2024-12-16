@@ -69,7 +69,7 @@ export default [
   },
   {
     path: '/teaching',
-    component: ComponentCreator('/teaching', '962'),
+    component: ComponentCreator('/teaching', '0a9'),
     exact: true
   },
   {
@@ -78,8 +78,8 @@ export default [
     exact: true
   },
   {
-    path: '/teaching/2024/05/09/propagators',
-    component: ComponentCreator('/teaching/2024/05/09/propagators', '7d5'),
+    path: '/teaching/2024/07/31/propagators',
+    component: ComponentCreator('/teaching/2024/07/31/propagators', '79c'),
     exact: true
   },
   {
@@ -94,22 +94,22 @@ export default [
   },
   {
     path: '/teaching/tags/fresnel',
-    component: ComponentCreator('/teaching/tags/fresnel', 'f3b'),
+    component: ComponentCreator('/teaching/tags/fresnel', 'aa0'),
     exact: true
   },
   {
     path: '/teaching/tags/nearfield',
-    component: ComponentCreator('/teaching/tags/nearfield', '7fa'),
+    component: ComponentCreator('/teaching/tags/nearfield', 'ea0'),
     exact: true
   },
   {
     path: '/teaching/tags/propagation',
-    component: ComponentCreator('/teaching/tags/propagation', 'aed'),
+    component: ComponentCreator('/teaching/tags/propagation', 'c38'),
     exact: true
   },
   {
     path: '/teaching/tags/waves',
-    component: ComponentCreator('/teaching/tags/waves', '03c'),
+    component: ComponentCreator('/teaching/tags/waves', '17d'),
     exact: true
   },
   {

@@ -138,7 +138,7 @@
     },
     "content": "1ad2c686"
   },
-  "/teaching-962": {
+  "/teaching-0a9": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "20ee8c15"
@@ -146,7 +146,7 @@
     "sidebar": "a1658fd6",
     "items": [
       {
-        "content": "ad71771b"
+        "content": "76043cf4"
       },
       {
         "content": "0db8520b"
@@ -165,7 +165,7 @@
     "sidebar": "a1658fd6",
     "content": "6b344c28"
   },
-  "/teaching/2024/05/09/propagators-7d5": {
+  "/teaching/2024/07/31/propagators-79c": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -174,7 +174,7 @@
       "plugin": "20ee8c15"
     },
     "sidebar": "a1658fd6",
-    "content": "8c1335c3"
+    "content": "29b4a99d"
   },
   "/teaching/archive-8df": {
     "__comp": "9e4087bc",
@@ -191,7 +191,7 @@
     "sidebar": "a1658fd6",
     "__props": "d18e8bdd"
   },
-  "/teaching/tags/fresnel-f3b": {
+  "/teaching/tags/fresnel-aa0": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -199,12 +199,12 @@
     "sidebar": "a1658fd6",
     "items": [
       {
-        "content": "ad71771b"
+        "content": "76043cf4"
       }
     ],
     "__props": "32726168"
   },
-  "/teaching/tags/nearfield-7fa": {
+  "/teaching/tags/nearfield-ea0": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -212,12 +212,12 @@
     "sidebar": "a1658fd6",
     "items": [
       {
-        "content": "ad71771b"
+        "content": "76043cf4"
       }
     ],
     "__props": "cfc29f96"
   },
-  "/teaching/tags/propagation-aed": {
+  "/teaching/tags/propagation-c38": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -225,12 +225,12 @@
     "sidebar": "a1658fd6",
     "items": [
       {
-        "content": "ad71771b"
+        "content": "76043cf4"
       }
     ],
     "__props": "df3438a7"
   },
-  "/teaching/tags/waves-03c": {
+  "/teaching/tags/waves-17d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20ee8c15"
@@ -238,7 +238,7 @@
     "sidebar": "a1658fd6",
     "items": [
       {
-        "content": "ad71771b"
+        "content": "76043cf4"
       }
     ],
     "__props": "0345c7d5"
