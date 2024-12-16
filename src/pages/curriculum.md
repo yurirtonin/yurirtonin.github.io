@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 ### Computational Scientist - Brazilian Synchrotron Light National Laboratory
 
-_Scientific Computing Group | Oct 2021 - Present | Campinas, SP, Brazil_
+_Scientific Computing Group | Oct 2021 - Dec 2024 | Campinas, SP, Brazil_
 
 Computational science and engineering. Software development for image processing and reconstruction. Main activities focus on Tomography, Coherent Imaging (Ptychography, Plane Wave CDI, Holography) and High Performance Computing. Overall user support.
 
@@ -82,6 +82,10 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 - - -
 
 ## Publications
+
+- [ssc-cdi: A Memory-Efficient, Multi-GPU Package for Ptychography with Extreme Data](https://doi.org/10.3390/jimaging10110286)
+
+    Published in J. Imaging 10(11), 286, 2024.
 
 - [Schwartz Symmetry Condition for Coherent Diffraction Imaging Patterns](https://doi.org/10.3390/sym16040399)
 
