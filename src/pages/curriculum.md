@@ -11,6 +11,10 @@ hide_table_of_contents: true
 
 ## Professional Experience
 
+### Research Assistant - Georg-August-Universität Göttingen
+
+_Institute for X-Rays Physics | Jan 2025 - Present | Göttingen, Germany_
+
 ### Computational Scientist - Brazilian Synchrotron Light National Laboratory
 
 _Scientific Computing Group | Oct 2021 - Dec 2024 | Campinas, SP, Brazil_
@@ -32,6 +36,10 @@ Project engineer related activities, such as hardware testing, technical documen
 - - -
 
 ## Education
+
+### PhD Candidate in Physics - Georg-August-Universität Göttingen
+
+_Institute for X-Rays Physics | Jan 2025 - Present | Göttingen, Germany_
 
 ### Masters in Applied Physics - Universidade Estadual de Campinas (UNICAMP)
 

@@ -34,7 +34,9 @@
       "name": "Yuri R. Tonin",
       "title": "Physics Engineer",
       "url": "https://github.com/yurirt94",
-      "imageURL": "/img/me.jpg"
+      "imageURL": "/img/me.jpg",
+      "key": null,
+      "page": null
     }
   ],
   "frontMatter": {
