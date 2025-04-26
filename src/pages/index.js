@@ -38,14 +38,14 @@ function Home() {
 		}),
 		translate({
 			id: 'homepage.description.descriptionLine_3',
-			message: 'Image Reconstruction and High Performance Computing',
+			message: 'PhD Candidate on Coherent X-ray Imaging',
 			description: 'The third line of description',
 		}),
 		translate({
 			id: 'homepage.description.descriptionLine_4',
-			message: 'Brazilian Synchrotron Light Laboratory (LNLS)',
+			message: 'Georg-August-Universität Göttingen',
 			description: 'The fourth line of description',
-		}),
+		})
 	];
 
 	return (
