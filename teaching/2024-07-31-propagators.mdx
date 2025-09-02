@@ -164,7 +164,7 @@ A few comments on these equations to help us better understand the Gaussian beam
 
 - The transversal size of the beam is indeed minimum at $w(z=0) = w_0$. This size increases in both $\pm z$ directions. The length from $-z_R$ to $z_R$ is defined to be the *depth of focus* $b$ of the beam. 
 
-- The Gouy phase represents a phase delay from $-\pi/2 to \pi/2$. If we combine two of the phase terms, we have $i(kz-\zeta(z) )$. Hence, it can be understood as a phase deviation from the plane wave scenario. 
+- The Gouy phase represents a phase delay from $-\pi/2$ to $\pi/2$. If we combine two of the phase terms, we have $i(kz-\zeta(z) )$. Hence, it can be understood as a phase deviation from the plane wave scenario. 
 
 - The third phase term relates to the radius of curvature, which causes the wavefront to curve. $R(z)$ is infinite at $z=0$, meaning we have a plane wave. The curvature then decreases up to a minimum at $z=z_R$. It then increases again to assimptoticaly reach $R(z)\approx z$ for big $z$. A good enough approximation is to use $R(z>2z_R) = z$.
 
@@ -219,7 +219,7 @@ $$
   H(f_{x1},f_{y1}) = \mathcal{F}\{h(x_1,y_1)\} = e^{jkz} e^{j \pi \lambda z (f_{x}^2+f_{y}^2)} \tag{5}
 $$
 
-Note that in computing equation (4), one should pre-computes $H(f_{x_1},f_{y_1})$ and spares one calculation of the Fourier Transform. 
+Note that in computing equation (4), one pre-computes $H(f_{x_1},f_{y_1})$ and spares a calculation of the Fourier Transform. 
 
 #### Chirp functions
 
@@ -331,7 +331,7 @@ $$
 
 #### Equivalent geometry #2
 
-A less well-known equivalent geometry [6] puts instead the reference on te pixel size $D$ of the output plane. In that case, an upscaling happens:
+A less well-known equivalent geometry [6] puts instead the reference on the pixel size $D$ of the output plane. In that case, an upscaling happens:
 
 $$
 z_2 \rightarrow M z_2

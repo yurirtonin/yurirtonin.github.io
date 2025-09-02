@@ -91,6 +91,10 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 
 ## Publications
 
+- [A Novel Bound for Fourier Ring Correlation in Resolution Analysis](https://doi.org/10.1109/TCI.2025.3593881)
+
+    Published IEEE Transactions on Computational Imaging 11, 1047, 2025.
+
 - [ssc-cdi: A Memory-Efficient, Multi-GPU Package for Ptychography with Extreme Data](https://doi.org/10.3390/jimaging10110286)
 
     Published in J. Imaging 10(11), 286, 2024.
