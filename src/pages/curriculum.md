@@ -91,6 +91,10 @@ Honors: Dean’s list Fall 2015 and Spring 2016
 
 ## Publications
 
+- [On super-resolution holography: effective geometry, sampling, and constraints](https://doi.org/10.1364/OE.579705)
+
+    Published in Optics Express 33, 26, 2025.
+
 - [A Novel Bound for Fourier Ring Correlation in Resolution Analysis](https://doi.org/10.1109/TCI.2025.3593881)
 
     Published IEEE Transactions on Computational Imaging 11, 1047, 2025.

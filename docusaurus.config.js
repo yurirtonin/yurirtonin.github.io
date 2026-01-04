@@ -39,15 +39,15 @@ module.exports = {
                     position: 'left',
                     to: '/curriculum'
                 },
+                // {
+                //     type: 'doc',
+                //     docId: 'Introduction for everyone/intro',
+                //     label: 'Research',
+                //     position: 'left',
+                //     to: '/docs'
+                // },
                 {
-                    type: 'doc',
-                    docId: 'Introduction for everyone/intro',
                     label: 'Research',
-                    position: 'left',
-                    to: '/docs'
-                },
-                {
-                    label: 'Teaching',
                     position: 'left',
                     to: '/teaching'
                 },
