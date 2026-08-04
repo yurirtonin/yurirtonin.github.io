@@ -1,0 +1,359 @@
+---
+title: Propagação em campo próximo
+authors: yuri
+tags: [waves, propagation, nearfield, fresnel]
+hide_table_of_contents: false
+---
+
+import Figure from '@site/src/components/figure';
+
+
+*Este texto é um guia (espero que rápido) sobre as equações mais importantes para calcular a propagação em espaço livre de uma frente de onda no regime de Fresnel, e sobre como fazer isso corretamente.*
+
+### Equação de Helmholtz e ondas elementares
+
+Primeiro, um pouco de contexto. Considere uma onda monocromática $\psi$ no vácuo. Ela é governada pela equação de Helmholtz:
+$$
+\nabla^2\psi + k^2 \psi = 0 
+$$
+onde $k = 2 \pi / \lambda$ é o número de onda. As soluções dessa equação são chamadas de ondas elementares, que podem ser
+
+ - ondas planas:
+
+$$
+\psi(\mathbf{r}) = A \exp{(-j \mathbf{k} \cdot \mathbf{r})} = A \exp{[-j (k_x x + k_y y + k_z z)]}
+$$
+
+ - ou ondas esféricas:
+$$
+\psi(\mathbf{r}) = \frac{A}{r} \exp{(-j k r)} 
+$$
+Os nomes indicam que as frentes de onda (isto é, as superfícies de fase constante) são planos ou esferas. O termo que precede a exponencial é chamado de *amplitude* da onda, enquanto o argumento imaginário do expoente é chamado de *fase*. Para uma onda esférica, a amplitude é modulada pela distância até a fonte por conta do termo $1/r$.  
+
+A figura abaixo ilustra a propagação de uma onda esférica. Como veremos adiante, perto da fonte as frentes de onda são esféricas. A pequenos ângulos com o eixo de propagação, elas podem eventualmente ser aproximadas por paraboloides. Para grandes distâncias, podemos aproximá-las por ondas planas.
+
+<Figure
+  data={{
+        src: '/img/sphericalevolve.png',
+        alt: 'propagationplanes',
+        type: 'image'
+  }}
+/>
+
+No mundo real, porém, não existe almoço grátis. Normalmente encontramos ondas bem mais complexas do que essas ondas elementares. Felizmente, podemos facilitar as coisas usando o **espectro angular** de ondas.
+
+### Método do Espectro Angular (ASM)
+
+Uma frente de onda arbitrária $\psi(x_1,y_1)$ no plano $z=0$ pode ser decomposta em componentes de ondas planas usando a transformada de Fourier (FT):
+
+$$
+\psi(x_1,y_1) =  \frac{1}{2 \pi} \iint \hat{\psi}(k_x,k_y) e^{[-j (k_x x_1 + k_y y_1)]} dk_x dk_y
+$$
+Em outras palavras, a frente de onda é composta por uma soma de ondas planas com fase $\phi = k_x x_1 + k_y y_1$, cada uma com amplitude $\hat{\psi}(k_x,k_y)$. Qualquer frente de onda pode ser decomposta dessa maneira, o que facilita as coisas.
+
+Agora, como obter a frente de onda em um plano diferente $(x_2,y_2,z)$ do espaço? Bem, em vez de trabalhar diretamente com $\psi(x_1,y_1)$, podemos propagar cada componente de onda plana separadamente e depois somar a contribuição de todas essas ondas elementares em $z$. Isso é feito usando o propagador de espaço livre: 
+
+$$
+H(k_x,k_y)=\exp{(j z \sqrt{k^2 - k_x^2 - k_ y^2})}
+$$
+
+de modo que a onda resultante é
+
+$$
+\psi(x_2,y_2,z) = \frac{1}{2 \pi} \iint \underbrace{\hat{\psi}_1(k_x,k_y) \exp{(j z \sqrt{k^2 - k_x^2 - k_ y^2}})}_{\text{o propagador de espaço livre multiplica cada componente}} e^{-j (k_x x_2 + k_y y_2)}dk_x dk_y
+$$
+
+Essa expressão pode ser escrita em forma de operadores como
+$$
+\psi(x_2,y_2,z) = \mathcal{F}^{-1}\{ \mathcal{F}\{\psi(x_1,y_1)\} H(k_x,k_y)  \}
+$$
+A expressão acima decorre diretamente da solução de difração de *Rayleigh-Sommerfeld* (veja a referência [4] para uma explicação mais detalhada). A única hipótese aqui é que a distância entre a fonte e o ponto de observação seja muito maior que o comprimento de onda $\lambda$. 
+
+### Aproximações importantes
+
+Podemos aplicar aproximações para obter formas mais simples do propagador. Para isso, usamos a **aproximação paraxial**. É comum ouvir que tal aproximação significa que a onda faz pequenos ângulos com o eixo óptico. No entanto, uma onda pode ter componentes de ondas planas espalhando-se em todas as direções. Portanto, uma forma mais correta de dizer isso é que as componentes de onda plana não desprezíveis fazem um pequeno ângulo com o eixo óptico [2]. Uma onda paraxial também pode ser entendida como aquela que varia muito mais no plano transversal $x,y$ do que na direção longitudinal $z$.
+
+A **equação de Helmholtz paraxial** governa as ondas paraxiais e apresenta duas soluções importantes:
+
+- Onda paraboloidal 
+
+Também conhecida como **integral de difração de Fresnel**. É a aproximação paraxial da onda esférica:
+
+$$
+\psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) e^{ \frac{i k}{2 z}\left[{(x_2-x_1)^2+(y_2-y_1)^2} \right]} dx_1 dy_1
+$$
+
+Nesse caso, temos uma componente de onda plana vinda do termo $e^{ikz}$, que é modulada pelo termo de fase dentro da integral. Note que $(x^2+y^2)/z = \text{const}$ é a equação do paraboloide de revolução. Assim, as ondas planas são "distorcidas" em paraboloides. Para grandes distâncias $z$, esse termo de fase se torna desprezível. Além disso, a variação da amplitude com o termo $1/z$ passa a ser menos relevante, o que justifica a aproximação de uma onda esférica por uma onda plana.
+
+
+ - Feixe gaussiano: 
+
+ O feixe gaussiano é uma solução mais complexa, mas extremamente útil, que aparece em lasers, comunicações ópticas e muitos instrumentos ópticos. Ele é descrito por:
+
+$$
+\psi(x, y, z) = \psi_0 \frac{w_0}{w(z)} \exp\left(-\frac{x^2 + y^2}{w(z)^2}\right) \exp\left(-ikz - ik\frac{x^2 + y^2}{2R(z)} + i\zeta(z)\right)
+$$
+
+Se calcularmos a intensidade $I=|\psi(x,y,z)|^2$, obtemos
+
+$$
+I(x,y,z) = |\psi_0|^2 \frac{w_0^2}{w(z)^2} \exp\left(-2\frac{x^2 + y^2}{w(z)^2}\right)
+$$
+
+A dependência em $xy$ da intensidade é gaussiana, o que explica o nome. Podemos ver o corte transversal $I(x,y)$ em $z=0$ na figura abaixo, que mostra exatamente essa distribuição gaussiana. 
+
+<Figure
+  data={{
+        src: '/img/gaussianbeam.png',
+        alt: 'gaussianbeam',
+        type: 'image'
+  }}
+>
+  <b>Cortes transversal e longitudinal de um feixe gaussiano</b>
+</Figure>
+
+Como a equação mostra, há alguns parâmetros para modelar o comportamento de um feixe gaussiano. Primeiro, é útil definir o comprimento de Rayleigh $z_R$
+
+$$
+z_R = \frac{\pi w_0^2}{\lambda}
+$$
+onde $w_0$ é chamado de *cintura do feixe*, que corresponde ao raio mínimo do feixe, escolhido para estar em $z=0$. O comprimento de Rayleigh é usado para escrever as demais grandezas de interesse, a saber:
+
+- Raio do feixe:
+
+$$
+w(z) = w_0 \sqrt{1 + \left(\frac{z}{z_R}\right)^2}
+$$
+
+- Raio de curvatura:
+
+$$
+R(z) = z \left[1 + \left(\frac{z_R}{z}\right)^2\right]
+$$
+
+- Fase de Gouy:
+
+$$
+\zeta(z) = \arctan\left(\frac{z}{z_R}\right)
+$$
+
+<Figure
+  data={{
+        src: 'https://upload.wikimedia.org/wikipedia/commons/5/53/GaussianBeamWaist.svg',
+        alt: 'propagationplanes',
+        type: 'image'
+  }}
+/>
+
+Alguns comentários sobre essas equações para nos ajudar a entender melhor o feixe gaussiano:
+
+- O tamanho transversal do feixe é de fato mínimo em $w(z=0) = w_0$. Esse tamanho aumenta nas duas direções $\pm z$. O comprimento de $-z_R$ até $z_R$ é definido como a *profundidade de foco* $b$ do feixe. 
+
+- A fase de Gouy representa um atraso de fase de $-\pi/2$ a $\pi/2$. Se combinarmos dois dos termos de fase, temos $i(kz-\zeta(z) )$. Portanto, ela pode ser entendida como um desvio de fase em relação ao cenário de onda plana. 
+
+- O terceiro termo de fase está relacionado ao raio de curvatura, que faz a frente de onda se curvar. $R(z)$ é infinito em $z=0$, o que significa que temos uma onda plana. A curvatura então diminui até um mínimo em $z=z_R$. Depois volta a aumentar, atingindo assintoticamente $R(z)\approx z$ para $z$ grande. Uma aproximação suficientemente boa é usar $R(z>2z_R) = z$.
+
+
+
+### Usando a integral de difração de Fresnel
+
+Vamos reescrever a integral de difração de Fresnel: 
+
+$$
+\psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) e^{ \frac{i k}{2 z}\left[{(x_2-x_1)^2+(y_2-y_1)^2} \right]} dx_1 dy_1 \tag{1}
+$$
+
+Podemos expandir o expoente dentro da integral e mover alguns termos para fora, chegando à seguinte forma:
+
+$$
+\psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \iint_{-\infty}^{+\infty} \psi (x_1,y_1) e^{ \frac{i k}{2 z} \left[{x_1^2+y_1^2} \right] } e^{ \frac{i k}{2 z}{(x_2 x_1+y_2 y_1)} }dx_1 dy_1 \tag{2}
+$$
+
+ As duas abordagens são chamadas de formas de **Convolução** e de **Transformada de Fourier** da integral de difração de Fresnel. Embora matematicamente idênticas, elas são numericamente diferentes. É preciso ter cuidado ao escolher entre elas dependendo do problema em questão.
+
+#### Forma de convolução
+
+##### - Método da resposta ao impulso
+
+Uma convolução entre duas funções f e g é definida por
+
+$$
+f \ast g = \int_{-\infty}^{+\infty} f(t) g(t-\tau) d\tau
+$$
+
+A equação (1) nada mais é do que uma convolução de $\psi$ com a seguinte função de resposta ao impulso $h(x,y)$:
+
+$$
+    h(x,y) =  \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x^2+y^2} \right]} \tag{3}
+$$
+Portanto
+
+$$
+\psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} \iint_{-\infty}^{+\infty} \psi(x_1,y_1) h(x_2-x_1,y_2-y_1) dx_1 dy_1
+$$
+
+##### - Método da função de transferência
+
+Usando o [teorema da convolução](https://en.wikipedia.org/wiki/Convolution_theorem), ela pode ser calculada no espaço de Fourier como 
+
+$$
+  \psi(x_2,y_2) = \mathcal{F}^{-1}\{ \mathcal{F}\{ \psi(x_1,y_1) \} H(f_{x_1},f_{y_1}) \} \tag{4}
+$$
+onde
+$$
+  H(f_{x1},f_{y1}) = \mathcal{F}\{h(x_1,y_1)\} = e^{jkz} e^{j \pi \lambda z (f_{x}^2+f_{y}^2)} \tag{5}
+$$
+
+Note que, ao calcular a equação (4), pré-computa-se $H(f_{x_1},f_{y_1})$ e economiza-se o cálculo de uma transformada de Fourier. 
+
+#### Funções chirp
+
+As equações (3) e (5) definem o que chamamos de *função chirp*. Para o método IR, a função chirp é amostrada no espaço real:
+
+$$
+C_1 = e^{ \frac{i k}{2 z} \left({x_1^2+y_1^2} \right) } 
+$$
+enquanto para a SFT ela é amostrada no espaço recíproco:
+$$
+C_2 = e^{j \pi \lambda z (f_{x}^2+f_{y}^2)}
+$$
+
+Essa é a razão pela qual elas são numericamente diferentes. A avaliação correta da transformada rápida de Fourier exige a amostragem adequada das funções para evitar aliasing, de acordo com o [teorema da amostragem de Nyquist](https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem). Agora, a transformada discreta de Fourier impõe que 
+
+$$
+\Delta x = \frac{1}{N \Delta f}
+$$
+onde $N$ é o número de pontos da sua matriz. Em outras palavras, para um dado N há uma relação inversa entre a amostragem $\Delta x$ no espaço real e a amostragem $\Delta f$ no espaço recíproco. Isso indica que, quanto melhor uma das funções chirp for amostrada, pior será a outra. Esse é um forte indício de que um método pode ser superior ao outro dependendo da situação. 
+
+### Como escolher o melhor método?
+
+Agora, ao lado prático das coisas. Para selecionar o melhor método para a sua aplicação, pode-se usar a regra prática da tabela abaixo (embora, para os detalhes, eu recomende dar uma olhada mais atenta nas referências!). $L$ representa o tamanho do array e $D$ é a largura do campo da fonte dentro dele ($D<L$).  
+
+| Critério&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Amostragem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Comentário |
+| -------------------------------- | -------------------------------- | ------  |
+| $\Delta x > \frac{\lambda z}{L}$ | TF: superamostrada.&nbsp;&nbsp;&nbsp;&nbsp; IR: subamostrada | O método IR gera cópias periódicas. TF é o método preferido. A largura do plano de observação fica limitada a $D + \lambda z / \Delta x$|
+| $\Delta x = \frac{\lambda z}{L}$ | TF e IR: amostragem crítica | TF e IR são idênticos |
+| $\Delta x < \frac{\lambda z}{L}$ | TF: subamostrada. IR: superamostrada | Depende. É preciso avaliar se a largura de banda da fonte satisfaz $B \le \frac{L}{2 \lambda z}$. Se sim, use TF. Caso contrário, IR pode ser melhor. |
+
+
+#### Forma de transformada de Fourier
+
+##### - Transformada de Fourier única
+
+A equação (2), por outro lado, pode ser vista como uma transformada de Fourier:
+
+$$
+    \psi(x_2,y_2) = \frac{e^{ikz}}{i \lambda z} e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \mathcal{F}\{ \psi(x_1,y_1) e^{ \frac{i k}{2 z} \left[{x_1^2+y_1^2} \right] } \}
+$$
+Note que ela também pode ser reescrita usando $h(x,y)$, de modo que
+$$
+    \psi(x_2,y_2) =  e^{ \frac{i k}{2 z}\left[{x_2^2+y_2^2} \right]} \mathcal{F}\{ \psi(x_1,y_1) h(x_1,y_1) \} \} \tag{6}
+$$
+Em contraste com a equação (4), a expressão acima exige o cálculo de uma única transformada de Fourier.
+
+##### Espaçamento da grade
+
+Na prática, vamos calcular a propagação em, bem, um computador. Em outras palavras, usaremos matrizes discretas. Uma diferença importante entre os métodos de **transformada de Fourier única** e de **convolução** é que o segundo sempre envolve uma transformada de Fourier inversa, enquanto o primeiro não. Isso tem consequências no espaçamento final da grade da matriz resultante. 
+
+Se você fizer uma transformada de Fourier inversa ao final, os tamanhos de pixel $p_1$ no campo de entrada e $p_2$ no de saída serão os mesmos. Nenhum problema aí. Entretanto, se apenas a transformada de Fourier direta for aplicada, os tamanhos de pixel se relacionam segundo:
+
+$$
+p_2 = \frac{\lambda z}{N p_1}
+$$
+
+
+##### - Propagador de Fresnel em 2 passos
+
+Uma alternativa para escolher o tamanho de pixel $p_2$ no plano de saída é fazer a propagação em dois passos. A ideia é primeiro propagar a frente de onda de $z_1$ até um plano intermediário $z_i$, e depois de $z_i$ até o plano final desejado $z_2$. Introduzimos um parâmetro de escala $m$ tal que
+
+$$
+p_2 = m p_1
+$$
+Acontece que esse parâmetro de escala se relaciona com as posições no eixo $z$ como
+$$
+m = \left\lvert\frac{z_2 - z_i}{z_i - z_1} \right\rvert =  \left\lvert\frac{\Delta z_2}{\Delta z_1} \right\rvert
+$$
+
+Nesse caso, a frente de onda $\psi$ é obtida via
+
+$$
+\begin{align*}
+\psi(x_2,y_2,z_2)  & = \frac{z_2}{z_1} e^{j 2 \pi z/\lambda} \exp{\left( -j \frac{\pi}{\lambda z} \frac{z_1-z_2}{z_2} (x_2^2+y_2^2)  \right)} 
+\\ & \mathcal{F}^{-1}\{\exp{\left( -j\pi \lambda z \frac{z_1}{z_2}(f_{x1}^2+f_{y_1}^2)\right)}  \mathcal{F}\{ \psi_1(x_1,y_1,z_1) \exp{\left( j \frac{\pi}{\lambda z}\frac{z_1-z_2}{z_1}(x_1^2+y_1^2)\right)}\}\}
+\end{align*}
+$$
+
+Mas atenção: a expressão acima apresenta um problema. Ela exige o cálculo de ambas as funções chirp, nos espaços real e recíproco. Portanto, a menos que se trabalhe com amostragem crítica, a expressão acima estará sempre parcialmente errada devido à subamostragem de uma das duas expressões. 
+
+
+### Teorema de escala de Fresnel
+
+Um cenário particularmente comum é o de fontes divergentes ou de **feixe cônico**. Nesses casos, a divergência do feixe é bastante grande para os comprimentos de interesse, de modo que a expansão do feixe se torna relevante. 
+
+A integral de difração de Fresnel continua, naturalmente, válida. No entanto, se estivermos lidando com grandes distâncias de propagação e grande divergência, um feixe com apenas alguns micrômetros de tamanho pode expandir centenas de vezes. Portanto, pode ser necessário trabalhar com matrizes de dezenas de milhares de pixels, tornando o cálculo inviável por limitações de memória do computador.
+
+Felizmente, existe uma solução engenhosa nesse caso, chamada *teorema de escala de Fresnel* (FST). Essencialmente, o FST afirma que uma onda esférica divergente possui uma onda plana equivalente, com pixels e distâncias reescalados. 
+
+No caso de feixe cônico, a distância foco-amostra $z_1$ e a distância amostra-plano de saída $z_2$ definem a *magnificação $M$* do sistema:
+
+$$
+M = \frac{z_1 + z_2}{z_1}
+$$
+
+Essa grandeza é então usada para converter da geometria cônica para a geometria equivalente de feixe paralelo. Note que recuperamos o caso paralelo ($M=1$) quando $z_1 \rightarrow + \infty$.
+
+#### Geometria equivalente #1
+
+A geometria mais conhecida toma como referência o tamanho de pixel $d$ do plano de entrada. Nesse caso, a distância entre os planos de entrada e saída e o tamanho de pixel de saída são reduzidos segundo
+
+$$
+z_2 \rightarrow z_2/M
+$$
+e
+$$
+D \rightarrow D/M
+$$
+
+#### Geometria equivalente #2
+
+Uma geometria equivalente menos conhecida [6] toma como referência o tamanho de pixel $D$ do plano de saída. Nesse caso, ocorre uma ampliação:
+
+$$
+z_2 \rightarrow M z_2
+$$
+e
+$$
+d \rightarrow M d
+$$
+
+Qual geometria usar vai depender da sua aplicação específica, o que quer que torne seus cálculos mais fáceis. Para uma implementação particularmente elegante da geometria #2, veja a referência [6].
+
+<Figure
+  data={{
+        src: '/img/fst_geometries.jpeg',
+        alt: 'fstgeometries',
+        type: 'image',
+        width: 800
+  }}
+>
+  <b>Geometria original (esquerda) e as duas equivalentes (#1, centro; #2, direita).</b>
+</Figure>
+
+#### Validade do FST
+
+Gostaria de enfatizar aqui que o teorema de escala de Fresnel pressupõe uma fonte pontual, isto é, ondas esféricas. Portanto, para aplicar o FST, as ondas que chegam ao nosso objeto no plano de entrada precisam ser esféricas. Em muitas situações práticas isso pode não ser o caso. 
+
+Voltando às equações do feixe gaussiano, a fase ainda não é esférica dentro do comprimento de Rayleigh. Uma distância mínima de $2z_R$ a partir da cintura do feixe é necessária para a aplicação do FST, pois somente então a frente de onda de fase pode novamente ser aproximada por uma frente de onda esférica [7].
+
+### Referências
+
+  - [1] Saleh, B. E. A., & Teich, M. C. (1991). Fundamentals of Photonics. Wiley. https://doi.org/10.1002/0471213748
+  - [2] Paganin, David, Coherent X-Ray Optics, Oxford Series on Synchrotron Radiation (2006), https://doi.org/10.1093/acprof:oso/9780198567288.001.0001
+  - [3] Goodman, J. W., & Cox, M. E. (1969). Introduction to Fourier Optics. 
+  - [4] Voelz, D. G. (2011). Computational Fourier Optics: A MATLAB Tutorial. SPIE. https://doi.org/10.1117/3.858456
+  - [5] Schmidt, J. D. (2010). Numerical Simulation of Optical Wave Propagation with Examples in MATLAB. SPIE. https://doi.org/10.1117/3.866274
+  - [6] Hu Ziyang, et. al. (2023) “Near-Field Multi-Slice Ptychography: Quantitative Phase Imaging of Optically Thick Samples with Visible Light and X-Rays.”. https://doi.org/10.1364/OE.487002.
+  - [7]  Robisch, Anna-Lena. “Phase Retrieval for Object and Probe in the Optical Near-Field.” Universitätsverlag Göttingen, 2016.
+
+
+<!--truncate-->

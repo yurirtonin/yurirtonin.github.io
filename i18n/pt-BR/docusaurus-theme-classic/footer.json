@@ -1,0 +1,10 @@
+{
+  "link.title. ": {
+    "message": " ",
+    "description": "The title of the footer links column with title=  in the footer"
+  },
+  "copyright": {
+    "message": "<span style=\"font-size: 10px;\">Copyright ©2022-presente Yuri Rossi Tonin. <br/><a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR\">Esta obra está licenciada sob uma Licença Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional.<img alt=\"Licença Creative Commons\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a></span>",
+    "description": "The footer copyright"
+  }
+}

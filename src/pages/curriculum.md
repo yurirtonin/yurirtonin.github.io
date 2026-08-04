@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 # Curriculum
 
-[PDF](../../static/documents/CV_english.pdf)  | [LinkedIn](https://www.linkedin.com/in/yuri-rossi-tonin) | [GitHub](https://github.com/yurirtonin) | 
+[PDF](/documents/CV_english.pdf)  | [LinkedIn](https://www.linkedin.com/in/yuri-rossi-tonin) | [GitHub](https://github.com/yurirtonin) | 
 
 ## Professional Experience
 
@@ -46,7 +46,7 @@ _Institute for X-Rays Physics | Jan 2025 - Present | Göttingen, Germany_
 **GPA: 4.0/4.0** _| Mar 2021 - Jul 2022 | Campinas, Brazil_  
 
 Coherent X-Ray Diffraction Imaging: Image reconstruction via a matrix model of the inhomogenous Helmholtz equation
-[Dissertation in English (PDF)](../../static/documents/MastersDissertation_YuriRossiTonin.pdf) 
+[Dissertation in English (PDF)](/documents/MastersDissertation_YuriRossiTonin.pdf) 
 
 ### Study abroad program in Physics - University of North Carolina at Chapel Hill (UNC)
 

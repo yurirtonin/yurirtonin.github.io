@@ -6,19 +6,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 function NotFound() {
-	const context = useDocusaurusContext();
-	let { siteConfig = {} } = context;
-
-	siteConfig.title = translate({
-		id: 'global.title',
-		message: siteConfig.title,
-		description: 'The website title',
-	});
-	siteConfig.tagline = translate({
-		id: 'global.tagline',
-		message: siteConfig.tagline,
-		description: 'The website tagline',
-	});
+	const { siteConfig } = useDocusaurusContext();
 
 	const goBack = () => window.history.back();
 	const refresh = () => window.location.reload();
@@ -26,7 +14,11 @@ function NotFound() {
 	return (
 		<Layout
 			title={siteConfig.title}
-			description={siteConfig.customFields.description}
+			description={translate({
+				id: 'global.description',
+				message: 'Personal website of Yuri R. Tonin!',
+				description: 'The website description, used as meta description'
+			})}
 			permalink='/'
 		>
 			<main className={styles.heroContainer}>

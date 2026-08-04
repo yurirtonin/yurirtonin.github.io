@@ -1,18 +1,11 @@
 ---
 title: Near-field Propagation
-author: Yuri R. Tonin
-author_title: Physics Engineer
-author_url: https://github.com/yurirt94
-author_image_url: /img/me.jpg
+authors: yuri
 tags: [waves, propagation, nearfield, fresnel]
-description: description
-image: /img/hunte.png
 hide_table_of_contents: false
 ---
 
-import Figure from '../src/components/figure';
-import SEO from '../src/components/seo';
-import Reminder from '../src/components/reminder';
+import Figure from '@site/src/components/figure';
 
 
 *This post is a (hopefully quick) guide on the most important equations for computing free space propagation of a wavefront in the Fresnel regime, and how to do it properly.*
@@ -39,16 +32,13 @@ The names indicate that the wavefronts (i.e. the surfaces of constant phase) are
 
 The figure below illustrates the propagation of a spherical wave. As we will understand ahead, near the source, the wavefronts are spherical. At small angles with the propagation axis, it can eventually be approximated by paraboloids. For large distances, one may approximate them by planes waves.
 
-<a >
-    <Figure 
-      data={{
-            src: '/img/sphericalevolve.png',
-            alt: 'propagationplanes',
-            type: 'image'
-      }} 
-    />
-  <br/>
-</a>
+<Figure
+  data={{
+        src: '/img/sphericalevolve.png',
+        alt: 'propagationplanes',
+        type: 'image'
+  }}
+/>
 
 In the real world, though, there is no free lunch. We usually encounter waves that are way more complex than these elementary waves. Fortunately, we can make things easier using the **Angular Spectrum** of waves.
 
@@ -112,17 +102,15 @@ $$
 
 The $xy$ dependence of the intensity is Gaussian, which explains the name. We can see the transversal slice $I(x,y)$ at $z=0$ in the figure below, which shows exactly such Gaussian distribution. 
 
-<a >
-    <Figure 
-      data={{
-            src: '/img/gaussianbeam.png',
-            alt: 'gaussianbeam',
-            type: 'image'
-      }} 
-    />
-    <figcaption align = "center"><b> Transversal and longitudional cuts to a Gaussian beam</b></figcaption>
-  <br/>
-</a>
+<Figure
+  data={{
+        src: '/img/gaussianbeam.png',
+        alt: 'gaussianbeam',
+        type: 'image'
+  }}
+>
+  <b>Transversal and longitudinal cuts to a Gaussian beam</b>
+</Figure>
 
 As the equation shows, there are a few parameters to model the bahavior of a Gaussian beam. First, it is useful to define the Rayleigh length $z_R$
 
@@ -149,16 +137,13 @@ $$
 \zeta(z) = \arctan\left(\frac{z}{z_R}\right)
 $$
 
-<a >
-    <Figure 
-      data={{
-            src: 'https://upload.wikimedia.org/wikipedia/commons/5/53/GaussianBeamWaist.svg',
-            alt: 'propagationplanes',
-            type: 'image'
-      }} 
-    />
-  <br/>
-</a>  
+<Figure
+  data={{
+        src: 'https://upload.wikimedia.org/wikipedia/commons/5/53/GaussianBeamWaist.svg',
+        alt: 'propagationplanes',
+        type: 'image'
+  }}
+/>
 
 A few comments on these equations to help us better understand the Gaussian beam:
 
@@ -343,13 +328,16 @@ $$
 
 Which geometry to use will depend on your specific application, whichever make your calculations easier. For a particuarly nice implementation of geometry #2, see reference [6].
 
-<a>
-  <img src="/img/fst_geometries.jpeg" alt="fstgeometries" width="800" />
-  <figcaption align="center">
-    <b> Original (left) and the two equivalent geometries (#1, center. #2, right). </b>
-  </figcaption>
-  <br/>
-</a>
+<Figure
+  data={{
+        src: '/img/fst_geometries.jpeg',
+        alt: 'fstgeometries',
+        type: 'image',
+        width: 800
+  }}
+>
+  <b>Original (left) and the two equivalent geometries (#1, center. #2, right).</b>
+</Figure>
 
 #### Validity of the FST
 
@@ -369,12 +357,6 @@ Referring back to the Gaussian beam equations, the phase is not yet spherical wi
 
 
 <!--truncate-->
-
-<SEO
-  uri='blog/name'
-  image='img/template.jpg'
-  type='article'
-/>
 
 
 

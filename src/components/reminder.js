@@ -7,14 +7,13 @@ export default function Reminder() {
 			<span className='italic'>
 				<Translate
 					id='reminder'
-					description='The text stating that what is written in this website is my own opinions and only mine'
+					description='Disclaimer stating that the opinions on this website are my own'
 				>
-					The opinions expressed here are stricly my own.
-					They do not represent the opinions or views of my current employer nor
-					any of my previous ones.
+					The opinions expressed here are stricly my own. They do not
+					represent the opinions or views of my current employer nor any
+					of my previous ones.
 				</Translate>
 			</span>
 		</div>
 	);
 }
-
