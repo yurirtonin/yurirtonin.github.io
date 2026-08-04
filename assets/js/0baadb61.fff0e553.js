@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyurirtonin_github_io=self.webpackChunkyurirtonin_github_io||[]).push([[218],{957:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/teaching","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Texts about technical and scientific topics that (I believe) might be useful to others.","blogTitle":"Research"}}')}}]);

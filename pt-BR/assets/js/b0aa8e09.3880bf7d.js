@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyurirtonin_github_io=self.webpackChunkyurirtonin_github_io||[]).push([[919],{1365:i=>{i.exports=JSON.parse('{"authors":[{"name":"Yuri R. Tonin","title":"Engenheiro F\xedsico","url":"https://github.com/yurirtonin","imageURL":"/pt-BR/img/me.jpg","key":"yuri","page":null,"count":2}]}')}}]);

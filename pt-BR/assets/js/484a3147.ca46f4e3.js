@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyurirtonin_github_io=self.webpackChunkyurirtonin_github_io||[]).push([[961],{3714:t=>{t.exports=JSON.parse('{"blogBasePath":"/pt-BR/teaching","blogTitle":"Research","authorsListPath":"/pt-BR/teaching/authors"}')}}]);
