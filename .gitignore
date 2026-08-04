@@ -6,13 +6,26 @@
 /.docusaurus
 /.cache-loader
 
-# Misc
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# macOS
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Secrets / local env
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
